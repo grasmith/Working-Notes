@@ -1,0 +1,2072 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.23)  8 DEC 2015 15:57
+entering extended mode
+**"D:/D_documents/00 PhD/Working Notes/003 Annotated Bibliography/SFC list.tex"
+
+("D:/D_documents/00 PhD/Working Notes/003 Annotated Bibliography/SFC list.tex"
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\Users\graeme\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count87
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
+\Gm@bindingoffset=\dimen112
+\Gm@wd@mp=\dimen113
+\Gm@odd@mp=\dimen114
+\Gm@even@mp=\dimen115
+\Gm@layoutwidth=\dimen116
+\Gm@layoutheight=\dimen117
+\Gm@layouthoffset=\dimen118
+\Gm@layoutvoffset=\dimen119
+\Gm@dimlist=\toks20
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("SFC list.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 14.22636pt
+* modes: twoside 
+* h-part:(L,W,R)=(56.9055pt, 469.4705pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=469.4705pt
+* \textheight=674.33032pt
+* \oddsidemargin=-1.13812pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=103.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+
+Overfull \hbox (16.37964pt too wide) in paragraph at lines 26--32
+[][] 
+ []
+
+
+Overfull \hbox (16.98798pt too wide) in paragraph at lines 36--51
+[][] 
+ []
+
+[1
+
+{C:/Users/graeme/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (16.71423pt too wide) in paragraph at lines 55--62
+[][] 
+ []
+
+
+Overfull \hbox (11.33044pt too wide) in paragraph at lines 66--81
+[][] 
+ []
+
+[2]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Overfull \hbox (22.46297pt too wide) in paragraph at lines 94--101
+[][] 
+ []
+
+
+Overfull \hbox (40.4392pt too wide) in paragraph at lines 105--110
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--129
+
+ []
+
+[3]
+Overfull \hbox (22.79758pt too wide) in paragraph at lines 133--141
+[][] 
+ []
+
+
+Package natbib Warning: Citation `Shaikh2012' on page 4 undefined on input line
+ 151.
+
+
+Overfull \hbox (34.77193pt too wide) in paragraph at lines 145--156
+[][] 
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 5787) in paragraph at lines 161--162
+[]\OT1/cmr/m/n/10.95 Leite, F.P., 2015. Tak-ing God-leys Ra-tios Se-ri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--186
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 190--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--207
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--214
+
+ []
+
+
+Overfull \hbox (14.10129pt too wide) in paragraph at lines 222--225
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--225
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--232
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--239
+
+ []
+
+("SFC list.bbl"
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [5]
+Underfull \hbox (badness 8151) in paragraph at lines 32--41
+[]\OT1/cmr/m/n/10.95 Christopher Adam and David Vines.  Re-mak-ing macroe-co-no
+mic pol-icy af-ter the
+ []
+
+
+Underfull \hbox (badness 2359) in paragraph at lines 32--41
+\OT1/cmr/m/n/10.95 global fi-nan-cial cri-sis: a balance-sheet ap-proach.  \OT1
+/cmr/m/it/10.95 Ox-ford Re-view of Eco-nomic Pol-
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 32--41
+\OT1/cmr/m/it/10.95 icy\OT1/cmr/m/n/10.95 , 25(4):507--552, 2010.  ISSN 0266-90
+3X.  doi: 10.1093/oxrep/grq014.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--50
+[]\OT1/cmr/m/n/10.95 Bahram Ad-rangi, Ar-jun Cha-trath, Ro-han Christie-David, 
+Hong Miao,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--50
+\OT1/cmr/m/n/10.95 and San-jay Ram-chan-der.  Price Re-spon-sive-ness and Stock
+-Flow Dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--50
+\OT1/cmr/m/n/10.95 tinc-tions in Com-modi-ties.  \OT1/cmr/m/it/10.95 Avail-able
+ at SSRN ...\OT1/cmr/m/n/10.95 , 2011.  URL
+ []
+
+
+Overfull \hbox (753.58519pt too wide) in paragraph at lines 44--50
+\OT1/cmtt/m/n/10.95 /citations?view[]op=view[]citation&continue=/scholar%3Fhl%3
+Den%26start%3D10%26as[]sdt%3D1,5%26scilib%3D1%26scioq%3Dallintitle:%2B%2522stoc
+k%2Bflow%2522&citilm=1&citation[]for[]view=[]Lwujt0AAAAJ:Fu2w8maKXqMC&hl=en&oi=
+p\OT1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 53--59
+\OT1/cmr/m/n/10.95 In-for-ma-tion, and the Role of In-ven-tory.  \OT1/cmr/m/it/
+10.95 Jour-nal of Fu-tures Mar-kets\OT1/cmr/m/n/10.95 , 2014.  URL
+ []
+
+
+Overfull \hbox (677.24261pt too wide) in paragraph at lines 53--59
+\OT1/cmtt/m/n/10.95 /citations?view[]op=view[]citation&continue=/scholar%3Fhl%3
+Den%26as[]sdt%3D1,5%26scilib%3D1%26scioq%3Dallintitle:%2B%2522stock%2Bflow%2522
+&citilm=1&citation[]for[]view=[]Lwujt0AAAAJ:[]Re3VWB3Y0AC&hl=en&oi=p\OT1/cmr/m/
+n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 109--115
+[]\OT1/cmr/m/n/10.95 G Tiou Tagba Al-iti and Stephen Kin-sella.  Sim-u-lat-ing 
+Global Re-bal-anc-ing Us-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--115
+\OT1/cmr/m/n/10.95 ing a Yuan An-chor in a Cur-rency Bas-ket with a Four-Countr
+y Stock-Flow
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--115
+\OT1/cmr/m/n/10.95 Con-sis-tent Model.  \OT1/cmr/m/it/10.95 So-cial Sci-ence Re
+-search Net-work (SSRN)\OT1/cmr/m/n/10.95 , 2012.  URL
+ []
+
+[6]
+Underfull \hbox (badness 3078) in paragraph at lines 123--128
+[]\OT1/cmr/m/n/10.95 Miguel Carrion Al-varez and Dirk H. Ehnts.  The Roads Not
+ Taken: Graph The-
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 123--128
+\OT1/cmr/m/n/10.95 ory and Macroe-co-nomic Regimes in Stock-Flow Con-sis-tent M
+od-elling.  2014.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--142
+[]\OT1/cmr/m/n/10.95 Stefan An-grick.  Balance-of-Payments Dis-e-qui-lib-ria an
+d Mon-e-tary Pol-icy Au-ton-
+ []
+
+
+Underfull \hbox (badness 5147) in paragraph at lines 137--142
+\OT1/cmr/m/n/10.95 omy.  In \OT1/cmr/m/it/10.95 IMK FMM Con-fer-ence, Berlin 20
+15\OT1/cmr/m/n/10.95 , page 24, Berlin, 2015.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--160
+[]\OT1/cmr/m/n/10.95 Philip Arestis.  Post-Keynesian eco-nomics: to-wards co-he
+r-ence.  \OT1/cmr/m/it/10.95 Cam-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--160
+\OT1/cmr/m/it/10.95 bridge Jour-nal of Eco-nomics\OT1/cmr/m/n/10.95 , 20:111--1
+35, 1996.  ISSN 0309-166X.  URL
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 4647) in paragraph at lines 223--228
+[]\OT1/cmr/m/n/10.95 W Brian Arthur.  Com-plex-ity Eco-nomics : A Dif-fer-ent F
+rame-work for Eco-nomic
+ []
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 223--228
+\OT1/cmr/m/n/10.95 Thought.  \OT1/cmr/m/it/10.95 Santa Fe In-sti-tute Work-ing 
+Pa-per\OT1/cmr/m/n/10.95 , 04-012(2007):1--22, 2013.  URL
+ []
+
+
+Overfull \hbox (759.33388pt too wide) in paragraph at lines 230--236
+\OT1/cmtt/m/n/10.95 /citations?view[]op=view[]citation&continue=/scholar%3Fhl%3
+Den%26start%3D120%26as[]sdt%3D1,5%26scilib%3D1%26scioq%3Dallintitle:%2B%2522sto
+ck%2Bflow%2522&citilm=1&citation[]for[]view=[]Lwujt0AAAAJ:GnPB-g6toBAC&hl=en&oi
+=p\OT1/cmr/m/n/10.95 . 
+ []
+
+[7]
+Underfull \hbox (badness 1072) in paragraph at lines 244--248
+\OT1/cmr/m/n/10.95 ket funds and non-US banks.  \OT1/cmr/m/it/10.95 BIS Quar-te
+rly re-view\OT1/cmr/m/n/10.95 , March, 200:65--81, 2009.  URL
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 269--275
+[]\OT1/cmr/m/n/10.95 Richard Bald-win and Coen Teul-ings.  Sec-u-lar Stag-na-ti
+on: Facts, Causes and Cures.
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 269--275
+\OT1/cmr/m/n/10.95 page 179. CEPR Press, voxeu eboo edi-tion, 2014.  ISBN 97819
+07142772.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--296
+[]\OT1/cmr/m/n/10.95 Nicoletta Ba-tini, Gio-vanni Cal-le-gari, and Gio-vanni Me
+lina.  Suc-cess-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--296
+\OT1/cmr/m/n/10.95 ful Aus-ter-ity in the United States, Eu-rope and Japan.  20
+12.  URL
+ []
+
+
+Overfull \hbox (113.64128pt too wide) in paragraph at lines 291--296
+\OT1/cmtt/m/n/10.95 http://elibrary.imf.org/view/IMF001/12983-9781475505382/129
+83-9781475505382/12983-9781475505382.xml\OT1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--313
+[]\OT1/cmr/m/n/10.95 Louis B^e Duc and Gwenael Le Bre-ton.  Flow-of-Fund Anal-
+y-sis at the ECB.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--313
+\OT1/cmr/m/it/10.95 ECB Oc-ca-sional Pa-per Se-ries\OT1/cmr/m/n/10.95 , (105):1
+--46, 2009.  ISSN <null>.  URL
+ []
+
+
+Overfull \hbox (188.10054pt too wide) in paragraph at lines 306--313
+\OT1/cmtt/m/n/10.95 http://www.ecb.int/pub/pdf/scpops/ecbocp105.pdf$\OMS/cmsy/m
+/n/10.95 n$\OT1/cmtt/m/n/10.95 npapers2://publication/uuid/D6E6BCD6-8CD7-4912-8
+FD8-1184809FBA82\OT1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 321--327
+[]\OT1/cmr/m/n/10.95 BEA.  An In-tro-duc-tion to the Na-tional In-come and Prod
+-uct Ac-counts.  Tech-ni-
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 321--327
+\OT1/cmr/m/n/10.95 cal Re-port Septem-ber, US Dept of Com-merce, Wash-ing-ton, 
+DC, 2007.  URL
+ []
+
+
+Overfull \hbox (272.72122pt too wide) in paragraph at lines 321--327
+\OT1/cmtt/m/n/10.95 http://www.bea.gov/scb/pdf/national/nipa/methpap/mpi1[]0907
+.pdf$\OMS/cmsy/m/n/10.95 n$\OT1/cmtt/m/n/10.95 npapers2://publication/uuid/28F9
+4BE1-71FD-4386-A792-6F05DDD354E1\OT1/cmr/m/n/10.95 . 
+ []
+
+[8]
+Underfull \hbox (badness 7168) in paragraph at lines 360--368
+[]\OT1/cmr/m/n/10.95 Rudolfs Bems, Luca Dedola, and Frank Smets.  US im-bal-anc
+es: The role of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--368
+\OT1/cmr/m/n/10.95 tech-nol-ogy and pol-icy.  \OT1/cmr/m/it/10.95 Jour-nal of I
+n-ter-na-tional Money and Fi-nance\OT1/cmr/m/n/10.95 , 26(4):
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--368
+\OT1/cmr/m/n/10.95 523--545, 2007.  ISSN 02615606.  doi: 10.1016/j.jimonfin.200
+7.03.004.  URL
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 2951) in paragraph at lines 413--418
+[]\OT1/cmr/m/n/10.95 Ben S Bernanke and Alan S Blin-der.  The Fed-eral Funds Ra
+te and the Chan-nels
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 413--418
+\OT1/cmr/m/n/10.95 of Mon-e-tary Trans-mis-sion.  \OT1/cmr/m/it/10.95 Amer-i-ca
+n Eco-nomic Re-view\OT1/cmr/m/n/10.95 , 82(4):901--921, 1992.  URL
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 428--435
+[]\OT1/cmr/m/n/10.95 Ben S Bernanke, Carol C. Bertaut, Lau-rie Pounder De-Marco
+, and Steven Kamin.  In-
+ []
+
+
+Underfull \hbox (badness 4819) in paragraph at lines 428--435
+\OT1/cmr/m/n/10.95 ter-na-tional Cap-i-tal Flows and the Re-turns to Safe As-se
+ts in the United States,
+ []
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 428--435
+\OT1/cmr/m/n/10.95 2003-2007.  \OT1/cmr/m/it/10.95 In-ter-na-tional Fi-nance Di
+s-cus-sion Pa-pers\OT1/cmr/m/n/10.95 , (1014):1--38, 2011.  URL
+ []
+
+
+Overfull \hbox (274.33086pt too wide) in paragraph at lines 428--435
+\OT1/cmtt/m/n/10.95 http://www.federalreserve.gov/pubs/ifdp/2011/1014/ifdp1014.
+pdf$\OMS/cmsy/m/n/10.95 n$\OT1/cmtt/m/n/10.95 npapers2://publication/uuid/9E9A7
+728-1501-4494-A34B-13121A1F22A9\OT1/cmr/m/n/10.95 . 
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 544--551
+[]\OT1/cmr/m/n/10.95 Peter J. Boet-tke.  What Hap-pened to " Ef-fi-cient Mar-ke
+ts "?  \OT1/cmr/m/it/10.95 The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--551
+\OT1/cmr/m/it/10.95 In-de-pen-dent Re-view\OT1/cmr/m/n/10.95 , 14(3):363--375, 
+2008a.  ISSN 10861653.  URL
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+[10]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ú in font cmti10!
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ì in font cmti10!
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ù in font cmti10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Underfull \hbox (badness 4967) in paragraph at lines 613--619
+[]\OT1/cmr/m/n/10.95 Claudio Bo-rio and Math-ias Drehmann.  To-wards an op-er-a
+-tional frame-work for fi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--619
+\OT1/cmr/m/n/10.95 nan-cial sta-bil-ity : fuzzy mea-sure-ment and its con-se-qu
+ences.  2009.  URL
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 621--626
+[]\OT1/cmr/m/n/10.95 Claudio Bo-rio, Robert N. Mc-cauley, and Patrick M. McGuir
+e.  Global credit and
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 621--626
+\OT1/cmr/m/n/10.95 do-mes-tic credit booms.  \OT1/cmr/m/it/10.95 BIS Quar-terly
+ re-view\OT1/cmr/m/n/10.95 , (September):43--57, 2011.  URL
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 628--633
+[]\OT1/cmr/m/n/10.95 Claudio Bo-rio, Harold James, and Hyun Song Shin.  The in-
+ter-na-tional mon-e-tary
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 628--633
+\OT1/cmr/m/n/10.95 and fi-nan-cial sys-tem: a cap-i-tal ac-count his-tor-i-cal 
+per-spec-tive.  aug 2014.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 642--646
+[]\OT1/cmr/m/n/10.95 Frits Bos.  Three Cen-turies of Macroe-co-nomic Statis-tic
+s.  2011.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 662--667
+[]\OT1/cmr/m/n/10.95 James M. Boughton and Don-ald E. Mog-gridge.  Why White, N
+ot Keynes?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 662--667
+\OT1/cmr/m/n/10.95 In-vent-ing the Post-War In-ter-na-tional Mon-e-tary Sys-tem
+.  2002.  URL
+ []
+
+[11]
+Underfull \hbox (badness 7326) in paragraph at lines 693--698
+[]\OT1/cmr/m/n/10.95 Andrew Brit-ton.  \OT1/cmr/m/it/10.95 Mon-e-tary Regimes o
+f the Twen-ti-eth Cen-tury\OT1/cmr/m/n/10.95 .  2001.  URL
+ []
+
+
+Overfull \hbox (54.54477pt too wide) in paragraph at lines 693--698
+\OT1/cmtt/m/n/10.95 https://books.google.co.uk/books?id=rcY[]zltPuboC&pg=PR6&lp
+g=PP1&hl=en#v=onepage&q&f=false\OT1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 700--707
+[]\OT1/cmr/m/n/10.95 Brookings In-sti-tu-tion.  Banks and Cross-Border Cap-i-ta
+l Flows : Pol-icy Chal-lenges and
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 730--738
+[]\OT1/cmr/m/n/10.95 Dick Bryan and Michael Raf-ferty.  \OT1/cmr/m/it/10.95 Cap
+-i-tal-ism with Deriva-tives; A Po-lit-i-cal Econ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--738
+\OT1/cmr/m/it/10.95 omy of Fi-nan-cial Deriva-tives, Cap-i-tal and Class\OT1/cm
+r/m/n/10.95 .  Pal-grave MacMil-lan, Bas-
+ []
+
+
+Underfull \hbox (badness 3503) in paragraph at lines 730--738
+\OT1/cmr/m/n/10.95 ingstoke, UK, 2006.  ISBN 9780230501546.  doi: 10.1057/97802
+30501546.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--746
+[]\OT1/cmr/m/n/10.95 James B. Bullard.  Seven Faces of "The Peril".  \OT1/cmr/m
+/it/10.95 Fed-eral Re-serve Bank of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--746
+\OT1/cmr/m/it/10.95 St. Louis Re-view\OT1/cmr/m/n/10.95 , (Sep-Oct 2010):339--3
+52, 2010.  ISSN 00149187.  URL
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 769--777
+[]\OT1/cmr/m/n/10.95 Ricardo J. Ca-ballero and Arvind Kr-ish-na-murthy.  Bub-bl
+es and cap-i-tal flow volatil-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 769--777
+\OT1/cmr/m/n/10.95 ity: Causes and risk man-age-ment.  \OT1/cmr/m/it/10.95 Jour
+-nal of Mon-e-tary Eco-nomics\OT1/cmr/m/n/10.95 , 53(1):
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 769--777
+\OT1/cmr/m/n/10.95 35--53, 2006.  ISSN 03043932.  doi: 10.1016/j.jmoneco.2005.1
+0.005.  URL
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Underfull \hbox (badness 1817) in paragraph at lines 805--812
+[]\OT1/cmr/m/n/10.95 Damien Cahill.  \OT1/cmr/m/it/10.95 The End of Laissez-Fai
+re? On the Dura-bil-ity of Em-bed-ded Ne-olib-er-
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 805--812
+\OT1/cmr/m/it/10.95 al-ism\OT1/cmr/m/n/10.95 .  Ed-ward El-gar, Chel-tenham, UK
+, 2015.  ISBN 978 1 78536 643 7.  URL
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 918--926
+[]\OT1/cmr/m/n/10.95 Eugenio Caverzasi and An-toine Godin.  Fi-nan-cial-i-sa-ti
+on and the sub-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 918--926
+\OT1/cmr/m/n/10.95 prime cri-sis: a stock-flow con-sis-tent model.  \OT1/cmr/m/
+it/10.95 Eu-ro-pean Jour-nal of Eco-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 918--926
+\OT1/cmr/m/it/10.95 nomics and Eco-nomic Poli-cies\OT1/cmr/m/n/10.95 , 12(1):73
+--92, 2015.  ISSN 2052-7772.  URL
+ []
+
+
+Overfull \hbox (119.38997pt too wide) in paragraph at lines 918--926
+\OT1/cmtt/m/n/10.95 http://www.elgaronline.com/abstract/journals/ejeep/12-1/eje
+ep.2015.01.07.xml?print&print&print&print\OT1/cmr/m/n/10.95 . 
+ []
+
+[13]
+Underfull \hbox (badness 2970) in paragraph at lines 974--979
+[]\OT1/cmr/m/n/10.95 EM Claassen.  Stock Flow De-ci-sions And Full Equi-lib-riu
+m.  \OT1/cmr/m/it/10.95 Kyk-los\OT1/cmr/m/n/10.95 , 1969.  URL
+ []
+
+
+Overfull \hbox (759.33388pt too wide) in paragraph at lines 974--979
+\OT1/cmtt/m/n/10.95 /citations?view[]op=view[]citation&continue=/scholar%3Fhl%3
+Den%26start%3D130%26as[]sdt%3D1,5%26scilib%3D1%26scioq%3Dallintitle:%2B%2522sto
+ck%2Bflow%2522&citilm=1&citation[]for[]view=[]Lwujt0AAAAJ:NMxIlDl6LWMC&hl=en&oi
+=p\OT1/cmr/m/n/10.95 . 
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 992--997
+[]\OT1/cmr/m/n/10.95 RW Clower and DW Bushaw.  Price de-ter-mi-na-tion in a sto
+ck-flow econ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 992--997
+\OT1/cmr/m/n/10.95 omy.  \OT1/cmr/m/it/10.95 Econo-met-rica: Jour-nal of the Ec
+ono-met-ric So-ci-ety\OT1/cmr/m/n/10.95 , 1954.  URL
+ []
+
+
+Overfull \hbox (757.72424pt too wide) in paragraph at lines 992--997
+\OT1/cmtt/m/n/10.95 /citations?view[]op=view[]citation&continue=/scholar%3Fhl%3
+Den%26start%3D190%26as[]sdt%3D1,5%26scilib%3D1%26scioq%3Dallintitle:%2B%2522sto
+ck%2Bflow%2522&citilm=1&citation[]for[]view=[]Lwujt0AAAAJ:Y0pCki6q[]DkC&hl=en&o
+i=p\OT1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 1008--1012
+[]\OT1/cmr/m/n/10.95 David Colan-der.  Com-plex-ity and the His-tory of Eco-nom
+ic Thought.  2008.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1018
+[]\OT1/cmr/m/n/10.95 Jesse Colombo.  The Next Mar-ket Crash, 2014.  URL
+ []
+
+
+Overfull \hbox (245.8611pt too wide) in paragraph at lines 1014--1018
+\OT1/cmtt/m/n/10.95 http://www.forbes.com/sites/jessecolombo/2014/07/01/these-2
+3-charts-prove-that-stocks-are-heading-for-a-devastating-crash/\OT1/cmr/m/n/10.
+95 . 
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1091
+[]\OT1/cmr/m/n/10.95 Yannis Dafer-mos.  Debt cy-cles, in-sta-bil-ity and fis-ca
+l rules: A Godley-Minsky
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 1086--1091
+\OT1/cmr/m/n/10.95 model.  In \OT1/cmr/m/it/10.95 IMK FMM Con-fer-ence, Berlin 
+2015\OT1/cmr/m/n/10.95 , page 37, Berlin, 2015.  URL
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 1117--1125
+[]\OT1/cmr/m/n/10.95 Jane D'Arista.  U. S. Debt and Global Im-bal-ances.  \OT1/
+cmr/m/it/10.95 In-ter-na-tional Jour-nal of Po-lit-i-cal
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+[15]
+Underfull \hbox (badness 1406) in paragraph at lines 1255--1263
+[]\OT1/cmr/m/n/10.95 Claudio H. Dos San-tos.  Key-ne-sian the-o-ris-ing dur-ing
+ hard times: stock-flow con-sis-tent
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 1255--1263
+\OT1/cmr/m/n/10.95 mod-els as an un-ex-plored 'fron-tier' of Key-ne-sian macroe
+-co-nomics.  \OT1/cmr/m/it/10.95 Cam-bridge Jour-nal
+ []
+
+[16]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 4144) in paragraph at lines 1361--1368
+[]\OT1/cmr/m/n/10.95 Saber Elaydi.  \OT1/cmr/m/it/10.95 An in-tro-duc-tion to d
+if-fer-ence equa-tions\OT1/cmr/m/n/10.95 .  Springer, New York, 3rd
+ []
+
+
+Underfull \hbox (badness 6825) in paragraph at lines 1361--1368
+\OT1/cmr/m/n/10.95 edi-tio edi-tion, 2005.  ISBN 0387230599.  doi: 10.1007/0-38
+7-27602-5.  URL
+ []
+
+[17]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1469--1475
+[]\OT1/cmr/m/n/10.95 Martin J. Fether-ston and Wynne God-ley.  "New Cam-bridge"
+ macroe-co-nomics
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 1469--1475
+\OT1/cmr/m/n/10.95 and global mon-e-tarism : Some is-sues in the con-duct of U.
+K. eco-nomic pol-icy.
+ []
+
+
+Underfull \hbox (badness 7777) in paragraph at lines 1469--1475
+\OT1/cmr/m/it/10.95 Carnegie-Rochester Con-fer-ence Se-ries on Pub-lic Pol-icy\
+OT1/cmr/m/n/10.95 , 9(1):33--65, 1978.  URL
+ []
+
+[18]
+Underfull \hbox (badness 1215) in paragraph at lines 1502--1508
+\OT1/cmr/m/n/10.95 tures.  \OT1/cmr/m/it/10.95 Jour-nal of Fi-nan-cial Eco-nomi
+cs\OT1/cmr/m/n/10.95 , 79(3):469--506, 2006.  ISSN 0304405X.  doi:
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 1510--1517
+\OT1/cmr/m/it/10.95 of Eco-nomics\OT1/cmr/m/n/10.95 , 35(1):15--38, 2011.  ISSN
+ 0309-166X.  doi: 10.1093/cje/beq006.  URL
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 1519--1526
+[]\OT1/cmr/m/n/10.95 S. Fleet-wood.  Do labour sup-ply and de-mand curves ex-is
+t?  \OT1/cmr/m/it/10.95 Cam-bridge Jour-nal of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1528--1536
+[]\OT1/cmr/m/n/10.95 J. Mar-cus Flem-ing.  Do-mes-tic Fi-nan-cial Poli-cies Un-
+der Fixed and Un-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1528--1536
+\OT1/cmr/m/n/10.95 der Float-ing Ex-change Rates.  \OT1/cmr/m/it/10.95 JS-TOR: 
+Staff Pa-pers - In-ter-na-tional Mon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1528--1536
+\OT1/cmr/m/it/10.95 e-tary Fund, Vol. 9, No. 3 (Nov., 1962)\OT1/cmr/m/n/10.95 ,
+ pages 369--380, 1962.  URL
+ []
+
+
+Overfull \hbox (47.36404pt too wide) in paragraph at lines 1528--1536
+\OT1/cmtt/m/n/10.95 http://www.jstor.org/discover/10.2307/3866091?uid=3738032&u
+id=2&uid=4&sid=21104696767797
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[19]
+Overfull \hbox (96.39522pt too wide) in paragraph at lines 1613--1621
+\OT1/cmtt/m/n/10.95 http://search.ebscohost.com/login.aspx?direct=true&db=bth&A
+N=20583845&site=ehost-live&scope=site\OT1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 1636--1642
+[]\OT1/cmr/m/n/10.95 Joshua Gallin.  Shadow Bank-ing and the Fund-ing of the No
+n-fi-nan-cial Sec-tor.  \OT1/cmr/m/it/10.95 SSRN
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 1636--1642
+\OT1/cmr/m/it/10.95 Elec-tronic Jour-nal\OT1/cmr/m/n/10.95 , may 2013.  ISSN 15
+56-5068.  doi: 10.2139/ssrn.2340684.  URL
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 1665--1672
+[]\OT1/cmr/m/n/10.95 Thomas Goda, []Ozlem Onaran, and En-gel-bert Stock-ham-mer
+.  A case for re-dis-tri-bu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1665--1672
+\OT1/cmtt/m/n/10.95 http://www.progressiveeconomy.eu/fr/system/files/papers/Tho
+mas Goda The role of
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+[20]
+Underfull \hbox (badness 2865) in paragraph at lines 1768--1775
+[]\OT1/cmr/m/n/10.95 Wynne God-ley and Marc Lavoie.  \OT1/cmr/m/it/10.95 Mon-e-
+tary Eco-nomics: An In-te-grated Ap-proach to
+ []
+
+
+Underfull \hbox (badness 3428) in paragraph at lines 1768--1775
+\OT1/cmr/m/it/10.95 Credit, Money, In-come, Pro-duc-tion and Wealth\OT1/cmr/m/n
+/10.95 .  Pal-grave Macmil-lan, Bas-ingstoke,
+ []
+
+
+Underfull \hbox (badness 7595) in paragraph at lines 1768--1775
+\OT1/cmr/m/n/10.95 UK, 2007.  ISBN 0230500552.  doi: 10.1111/j.1468-0335.2008.0
+0655.x.  URL
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1821--1827
+[]\OT1/cmr/m/n/10.95 Richard M. Good-win.  Chaotic Eco-nomic Dy-nam-ics.  (Octo
+ber
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1821--1827
+\OT1/cmr/m/n/10.95 2014):1--17, 1990.  doi: 10.1093/0198283350.001.0001.  URL
+ []
+
+
+Overfull \hbox (38.90834pt too wide) in paragraph at lines 1821--1827
+\OT1/cmtt/m/n/10.95 http://www.oxfordscholarship.com/view/10.1093/0198283350.00
+1.0001/acprof-9780198283355\OT1/cmr/m/n/10.95 . 
+ []
+
+[21]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 7907) in paragraph at lines 1869--1878
+[]\OT1/cmr/m/n/10.95 Maria Gry-daki and Dirk Beze-mer.  The role of credit in t
+he Great Mod-er-a-
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 1869--1878
+\OT1/cmr/m/n/10.95 tion: A mul-ti-vari-ate GARCH ap-proach.  \OT1/cmr/m/it/10.9
+5 Jour-nal of Bank-ing & Fi-nance\OT1/cmr/m/n/10.95 , 37(11):
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 1869--1878
+\OT1/cmr/m/n/10.95 4615--4626, nov 2013.  ISSN 03784266.  doi: 10.1016/j.jbankf
+in.2013.01.039.  URL
+ []
+
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ô in font cmti10!
+
+Underfull \hbox (badness 5077) in paragraph at lines 1930--1938
+[]\OT1/cmr/m/n/10.95 Geoff C. Har-court.  On the Cam-bridge, Eng-land, Cri-tiqu
+e of the Marginal Pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1930--1938
+\OT1/cmr/m/n/10.95 duc-tiv-ity The-ory of Dis-tri-bu-tion.  \OT1/cmr/m/it/10.95
+ Re-view of Rad-i-cal Po-lit-i-cal Eco-nomics\OT1/cmr/m/n/10.95 , 47
+ []
+
+
+Underfull \hbox (badness 7344) in paragraph at lines 1930--1938
+\OT1/cmr/m/n/10.95 (2):243--255, 2015.  ISSN 0486-6134.  doi: 10.1177/048661341
+4557915.  URL
+ []
+
+[22]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 2041--2046
+[]\OT1/cmr/m/n/10.95 R. S. Hig-gins.  Mi-croe-co-nomic Foun-da-tions Of In-vest
+-ment And
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2041--2046
+\OT1/cmr/m/n/10.95 Stock Flow Anal-y-sis.  \OT1/cmr/m/it/10.95 Eco-nomic In-qui
+ry\OT1/cmr/m/n/10.95 , 1972.  URL
+ []
+
+
+Overfull \hbox (759.33388pt too wide) in paragraph at lines 2041--2046
+\OT1/cmtt/m/n/10.95 /citations?view[]op=view[]citation&continue=/scholar%3Fhl%3
+Den%26start%3D100%26as[]sdt%3D1,5%26scilib%3D1%26scioq%3Dallintitle:%2B%2522sto
+ck%2Bflow%2522&citilm=1&citation[]for[]view=[]Lwujt0AAAAJ:yD5IFk8b50cC&hl=en&oi
+=p\OT1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 2062--2070
+[]\OT1/cmr/m/n/10.95 G. M. Hodg-son.  What is cap-i-tal? Economists and so-ci-o
+l-o-gists have changed
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 2062--2070
+\OT1/cmr/m/n/10.95 its mean-ing: should it be changed back?  \OT1/cmr/m/it/10.9
+5 Cam-bridge Jour-nal of Eco-nomics\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2062--2070
+\OT1/cmr/m/n/10.95 38(5):1063--1086, 2014.  ISSN 0309-166X.  doi: 10.1093/cje/b
+eu013.  URL
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 2096--2103
+[]\OT1/cmr/m/n/10.95 IMF.  \OT1/cmr/m/it/10.95 The sys-tem of macroe-co-nomic a
+c-counts statis-tics: an overview\OT1/cmr/m/n/10.95 .  IMF,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2096--2103
+\OT1/cmr/m/n/10.95 Wash-ing-ton, DC, pam-phlet n edi-tion, 2007.  ISBN 97815890
+66205.  URL
+ []
+
+
+Overfull \hbox (734.49956pt too wide) in paragraph at lines 2096--2103
+\OT1/cmtt/m/n/10.95 http://books.google.com/books?hl=en&amp;lr=&amp;id=GDvZ9ncd
+XXwC&amp;oi=fnd&amp;pg=PR7&amp;dq=The+System+of+Macroeconomic+Accounts+Statisti
+cs+An+Overview&amp;ots=Mh6NeZn1JF&amp;sig=Nc4rNSnr8PQN01KYgY-bJ5o13yw\OT1/cmr/m
+/n/10.95 . 
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 2207--2216
+[]\OT1/cmr/m/n/10.95 Steve Keen.  A mon-e-tary Min-sky model of the Great Mod-e
+r-a-tion and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2207--2216
+\OT1/cmr/m/n/10.95 the Great Re-ces-sion.  \OT1/cmr/m/it/10.95 Jour-nal of Eco-
+nomic Be-hav-ior & Or-ga-ni-za-tion\OT1/cmr/m/n/10.95 , 86:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2207--2216
+\OT1/cmr/m/n/10.95 221--235, 2013.  ISSN 01672681.  doi: 10.1016/j.jebo.2011.01
+.010.  URL
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 2226--2234
+[]\OT1/cmr/m/n/10.95 Bryan Kelly and Hao Jiang.  Tail Risk and As-set Prices.  
+\OT1/cmr/m/it/10.95 Re-view of Fi-nan-cial Stud-
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 2226--2234
+\OT1/cmr/m/it/10.95 ies\OT1/cmr/m/n/10.95 , 27(10):2841--2871, 2014.  ISSN 0893
+-9454.  doi: 10.1093/rfs/hhu039.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2247--2253
+[]\OT1/cmr/m/n/10.95 John May-nard Keynes.  Gen-eral The-ory Of Em-ploy-ment , 
+In-ter-est And
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 2247--2253
+\OT1/cmr/m/n/10.95 Money.  page 400, 2006.  ISSN 00323195.  doi: 10.2307/214394
+9.  URL
+ []
+
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no © in font cmr10!
+
+Underfull \hbox (badness 3128) in paragraph at lines 2303--2312
+[]\OT1/cmr/m/n/10.95 Stephen Kin-sella.  Words to the Wise: Stock Flow Con-sis-
+tent Mod-el-ing of Fi-nan-
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 2303--2312
+\OT1/cmr/m/n/10.95 cial In-sta-bil-ity.  \OT1/cmr/m/it/10.95 Geary In-sti-tute,
+ Uni-ver-sity Col-lege Dublin, Work-ing Pa-pers: 201130,
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 2303--2312
+\OT1/cmr/m/it/10.95 2011, 14 pp.\OT1/cmr/m/n/10.95 , page 14, 2011.  ISSN 1556-
+5068.  doi: 10.2139/ssrn.1955613.  URL
+ []
+
+
+Overfull \hbox (84.62416pt too wide) in paragraph at lines 2303--2312
+\OT1/cmtt/m/n/10.95 http://search.proquest.com/docview/913432355?accountid=1304
+2$\OMS/cmsy/m/n/10.95 n$\OT1/cmtt/m/n/10.95 nhttp://ssrn.com/abstract=1955613\O
+T1/cmr/m/n/10.95 . 
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 2374--2380
+[]\OT1/cmr/m/n/10.95 Alfred Kleinknecht.  How 'struc-tural re-forms' of labour 
+mar-kets harm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2374--2380
+\OT1/cmr/m/n/10.95 in-no-va-tion.  \OT1/cmr/m/it/10.95 Hans-Boeckler Stiftung -
+ WSI\OT1/cmr/m/n/10.95 , (6):1--7, 2015.  URL
+ []
+
+[26]
+Underfull \hbox (badness 2245) in paragraph at lines 2466--2472
+[]\OT1/cmr/m/n/10.95 Paul Krug-man.  Cur-rency Regimes, Cap-i-tal Flows, and Cr
+ises.  \OT1/cmr/m/it/10.95 IMF Eco-nomic Re-
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 2466--2472
+\OT1/cmr/m/it/10.95 view\OT1/cmr/m/n/10.95 , 62(4):470--493, 2014.  ISSN 2041-4
+161.  doi: 10.1057/im-fer.2014.9.  URL
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 2626) in paragraph at lines 2474--2483
+[]\OT1/cmr/m/n/10.95 Heinz D. Kurz.  Who is Go-ing to Kiss Sleep-ing Beauty? On
+ the Clas-si-cal An-a-
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 2474--2483
+\OT1/cmr/m/n/10.95 lyt-i-cal Ori-gins and Per-spec-tives of In-putOut-put Anal-
+y-sis.  \OT1/cmr/m/it/10.95 Re-view of Po-lit-i-cal Econ-
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 2474--2483
+\OT1/cmr/m/it/10.95 omy\OT1/cmr/m/n/10.95 , 23(1):25--47, 2011.  ISSN 0953-8259
+.  doi: 10.1080/09538259.2011.526292.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2495--2499
+[]\OT1/cmr/m/n/10.95 V Lak-sh-mikan-tham.  Lin-ear Dif-fer-ence Equa-tions.  (2
+005):1--20, 2002.  doi:
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 2515--2524
+[]\OT1/cmr/m/n/10.95 Costas La-pavit-sas and Jeff Pow-ell.  Fi-nan-cial-i-sa-ti
+on var-ied: a com-par-a-tive anal-y-
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 2515--2524
+\OT1/cmr/m/n/10.95 sis of ad-vanced economies.  \OT1/cmr/m/it/10.95 Cam-bridge 
+Jour-nal of Re-gions, Econ-omy and So-ci-
+ []
+
+
+Underfull \hbox (badness 6461) in paragraph at lines 2515--2524
+\OT1/cmr/m/it/10.95 ety\OT1/cmr/m/n/10.95 , 6(3):359--379, 2013.  ISSN 1752-137
+8.  doi: 10.1093/cjres/rst019.  URL
+ []
+
+[27]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ú in font cmti10!
+Missing character: There is no ¬ in font cmti10!
+Missing character: There is no ≠ in font cmti10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ê in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no ¨ in font cmr10!
+Missing character: There is no Ç in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no ¨ in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no ¨ in font cmr10!
+Missing character: There is no Ç in font cmr10!
+ [28]
+Underfull \hbox (badness 10000) in paragraph at lines 2688--2694
+[]\OT1/cmr/m/n/10.95 Francois Lequi-ller and Derek Blades.  \OT1/cmr/m/it/10.95
+ Un-der-stand-ing Na-tional Ac-counts\OT1/cmr/m/n/10.95 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2688--2694
+\OT1/cmr/m/n/10.95 OECD, 2nd edi-tio edi-tion, 2014.  ISBN ISSN 0312-4746.  URL
+
+ []
+
+
+Overfull \hbox (204.01065pt too wide) in paragraph at lines 2688--2694
+\OT1/cmtt/m/n/10.95 http://www.ausstats.abs.gov.au/ausstats/subscriber.nsf/Look
+upAttach/1301.0Publication24.05.121/$file/13010[]2012.pdf\OT1/cmr/m/n/10.95 . 
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Underfull \hbox (badness 3536) in paragraph at lines 2733--2739
+[]\OT1/cmr/m/n/10.95 CL Lloyd.  The equiv-a-lence of the liq-uid-ity pref-er-en
+ce and loan-able funds the-o-ries
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 2733--2739
+\OT1/cmr/m/n/10.95 and the new stock-flow anal-y-sis.  \OT1/cmr/m/it/10.95 The 
+Re-view of Eco-nomic Stud-ies\OT1/cmr/m/n/10.95 , 1960.  URL
+ []
+
+
+Overfull \hbox (759.33388pt too wide) in paragraph at lines 2733--2739
+\OT1/cmtt/m/n/10.95 /citations?view[]op=view[]citation&continue=/scholar%3Fhl%3
+Den%26start%3D180%26as[]sdt%3D1,5%26scilib%3D1%26scioq%3Dallintitle:%2B%2522sto
+ck%2Bflow%2522&citilm=1&citation[]for[]view=[]Lwujt0AAAAJ:LkGwnXOMwfcC&hl=en&oi
+=p\OT1/cmr/m/n/10.95 . 
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 2842--2851
+[]\OT1/cmr/m/n/10.95 Tiago Mata.  Con-struct-ing Iden-tity: The Post Key-ne-sia
+ns and the Cap-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2842--2851
+\OT1/cmr/m/n/10.95 tal Con-tro-ver-sies.  \OT1/cmr/m/it/10.95 Jour-nal of the H
+is-tory of Eco-nomic Thought\OT1/cmr/m/n/10.95 , 26(02):
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 2842--2851
+\OT1/cmr/m/n/10.95 241, jan 2009.  ISSN 1053-8372.  doi: 10.1080/10427710420002
+19055.  URL
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 2860--2869
+\OT1/cmr/m/n/10.95 1):334--355, dec 2009.  ISSN 0018-2702.  doi: 10.1215/001827
+02-2009-031.  URL
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 2905--2913
+[]\OT1/cmr/m/n/10.95 Jacques Mazier and Se-bas-tian Valde-cantos.  A multi-spee
+d Eu-rope: is it vi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2905--2913
+\OT1/cmr/m/n/10.95 able? A stock-flow con-sis-tent ap-proach.  \OT1/cmr/m/it/10
+.95 Eu-ro-pean Jour-nal of Eco-nomics
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2905--2913
+\OT1/cmr/m/it/10.95 and Eco-nomic Poli-cies\OT1/cmr/m/n/10.95 , (1):93--112, ap
+r 2015.  ISSN 2052-7772.  URL
+ []
+
+
+Overfull \hbox (153.8821pt too wide) in paragraph at lines 2905--2913
+\OT1/cmtt/m/n/10.95 http://www.elgaronline.com/abstract/journals/ejeep/12-1/eje
+ep.2015.01.08.xml?print&print&print&print&print\OT1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 2977--2984
+[]\OT1/cmr/m/n/10.95 Michael McLeay, Amar Ra-dia, and Ry-land Thomas.  Money Cr
+e-ation in the Mod-ern
+ []
+
+
+Overfull \hbox (550.26787pt too wide) in paragraph at lines 2977--2984
+\OT1/cmtt/m/n/10.95 http://www.bankofengland.co.uk/publications/Documents/quart
+erlybulletin/2014/qb14q1prereleasemoneycreation.pdf$\OMS/cmsy/m/n/10.95 n$\OT1/
+cmtt/m/n/10.95 npapers2://publication/uuid/3703BD2D-E2A7-43A1-86EE-3CE1BEB67A2E
+\OT1/cmr/m/n/10.95 . 
+ []
+
+[31]
+Overfull \hbox (175.91331pt too wide) in paragraph at lines 3044--3051
+\OT1/cmtt/m/n/10.95 http://www.boeckler.de/pdf/v[]2014[]10[]30[]michell.pdf$\OM
+S/cmsy/m/n/10.95 n$\OT1/cmtt/m/n/10.95 nhttp://www.postkeynesian.net/downloads/
+wpaper/PKWP1412.pdf\OT1/cmr/m/n/10.95 . 
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 3126--3134
+[]\OT1/cmr/m/n/10.95 Hyman P Min-sky.  Pri-vate Sec-tor As-set Man-age-ment and
+ the Ef-fec-tive-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3126--3134
+\OT1/cmr/m/n/10.95 ness of Mon-e-tary Pol-icy: The-ory and Prac-tice.  \OT1/cmr
+/m/it/10.95 The Jour-nal of Fi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3126--3134
+\OT1/cmr/m/it/10.95 nance\OT1/cmr/m/n/10.95 , 24(2):223--238, 1969.  doi: 10.10
+73/pnas.0703993104.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3191--3197
+[]\OT1/cmr/m/n/10.95 William Mitchell and Joan Muysken.  \OT1/cmr/m/it/10.95 Fu
+ll Em-ploy-ment Aban-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3191--3197
+\OT1/cmr/m/it/10.95 doned: Shift-ing Sands and Pol-icy Fail-ures\OT1/cmr/m/n/10
+.95 .  2008.  URL
+ []
+
+
+Overfull \hbox (79.14915pt too wide) in paragraph at lines 3191--3197
+\OT1/cmtt/m/n/10.95 http://books.google.co.uk/books?id=caEl9oAI4XoC&printsec=fr
+ontcover&hl=en#v=onepage&q&f=false\OT1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 3199--3203
+[]\OT1/cmr/m/n/10.95 B.H. Mitra-Kahn and B.H. Mitra-Kahn.  De-bunk-ing the myth
+s of Com-putable Gen-
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 3199--3203
+\OT1/cmr/m/n/10.95 eral Equi-lib-rium Mod-els.  \OT1/cmr/m/it/10.95 SCEPA Work-
+ing Pa-pers\OT1/cmr/m/n/10.95 , (March):1--93, 2008.  URL
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 3219--3228
+[]\OT1/cmr/m/n/10.95 Jamie Mor-gan.  Is Eco-nomics Re-spond-ing to Cri-tique? W
+hat do the UK 2015
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3219--3228
+\OT1/cmr/m/n/10.95 QAA Sub-ject Bench-marks In-di-cate?  \OT1/cmr/m/it/10.95 Re
+-view of Po-lit-i-cal Econ-omy\OT1/cmr/m/n/10.95 , 27(4):
+ []
+
+
+Underfull \hbox (badness 6204) in paragraph at lines 3219--3228
+\OT1/cmr/m/n/10.95 518--538, 2015.  ISSN 0953-8259.  doi: 10.1080/09538259.2015
+.1084774.  URL
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 3254--3259
+[]\OT1/cmr/m/n/10.95 Robert A. Mundell.  The Ap-pro-pri-ate Use of Mon-e-tary a
+nd
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3254--3259
+\OT1/cmr/m/n/10.95 Fis-cal Pol-icy.  \OT1/cmr/m/it/10.95 IMF Staff Pa-pers\OT1/
+cmr/m/n/10.95 , 9:70--79, 1962.  URL
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 3261--3269
+[]\OT1/cmr/m/n/10.95 Robert A. Mundell.  Cap-i-tal Mo-bil-ity and Sta-bi-liza-t
+ion Pol-icy un-der Fixed and Flex-
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 3261--3269
+\OT1/cmr/m/n/10.95 i-ble Ex-change Rates.  \OT1/cmr/m/it/10.95 The Cana-dian Jo
+ur-nal of Eco-nomics and Po-lit-i-cal Sci-ence /
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 3261--3269
+\OT1/cmr/m/it/10.95 Re-vue cana-di-enne d'Economique et de Sci-ence poli-tique\
+OT1/cmr/m/n/10.95 , 29(4):475--485, 1963.  URL
+ []
+
+
+Overfull \hbox (136.63603pt too wide) in paragraph at lines 3261--3269
+\OT1/cmtt/m/n/10.95 http://www.jstor.org/discover/10.2307/139336?uid=3738032&ui
+d=2134&uid=2&uid=70&uid=4&sid=21104700985377\OT1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 3298--3306
+[]\OT1/cmr/m/n/10.95 Anastasia Nesve-tai-lova and R. Palan.  The End of Lib-era
+l Fi-nance? The Chang-ing
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 3298--3306
+\OT1/cmr/m/it/10.95 ies\OT1/cmr/m/n/10.95 , 38(3):797--825, 2010.  ISSN 0305-82
+98.  doi: 10.1177/0305829810364275.  URL
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 3308--3316
+[]\OT1/cmr/m/n/10.95 J. W. Nevile and P. Kriesler.  A bright fu-ture can be our
+s! Macroe-co-nomic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3308--3316
+\OT1/cmr/m/n/10.95 pol-icy for non-eurozone West-ern coun-tries.  \OT1/cmr/m/it
+/10.95 Cam-bridge Jour-nal of Eco-nomics\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3308--3316
+\OT1/cmr/m/n/10.95 38(6):1453--1470, 2014.  ISSN 0309-166X.  doi: 10.1093/cje/b
+es083.  URL
+ []
+
+
+Underfull \hbox (badness 4634) in paragraph at lines 3324--3330
+[]\OT1/cmr/m/n/10.95 Bryan J. Noeth and Ra-jdeep Sen-gupta.  Global Eu-ro-pean 
+Banks and the Fi-nan-
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 3324--3330
+\OT1/cmr/m/n/10.95 cial Cri-sis.  \OT1/cmr/m/it/10.95 Fed-eral Re-serve Bank of
+ St. Louis Re-view\OT1/cmr/m/n/10.95 , 94(6):457--479, 2012.  URL
+ []
+
+
+Overfull \hbox (176.87685pt too wide) in paragraph at lines 3324--3330
+\OT1/cmtt/m/n/10.95 https://research.stlouisfed.org/publications/review/2012/11
+/01/global-european-banks-and-the-financial-crisis/\OT1/cmr/m/n/10.95 . 
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 3352--3357
+[]\OT1/cmr/m/n/10.95 NP Obst.  Price Ig-no-rance and the Sta-bil-ity of Stock-F
+low Equi-lib-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3352--3357
+\OT1/cmr/m/n/10.95 rium.  \OT1/cmr/m/it/10.95 Econo-met-rica: Jour-nal of the E
+cono-met-ric So-ci-ety\OT1/cmr/m/n/10.95 , 1975.  URL
+ []
+
+
+Overfull \hbox (751.97556pt too wide) in paragraph at lines 3352--3357
+\OT1/cmtt/m/n/10.95 /citations?view[]op=view[]citation&continue=/scholar%3Fhl%3
+Den%26start%3D70%26as[]sdt%3D1,5%26scilib%3D1%26scioq%3Dallintitle:%2B%2522stoc
+k%2Bflow%2522&citilm=1&citation[]for[]view=[]Lwujt0AAAAJ:738O[]yMBCRsC&hl=en&oi
+=p\OT1/cmr/m/n/10.95 . 
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 3359--3368
+[]\OT1/cmr/m/n/10.95 Maurice Ob-st-feld.  Fi-nan-cial flows, fi-nan-cial crises
+, and global im-bal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3359--3368
+\OT1/cmr/m/n/10.95 ances.  \OT1/cmr/m/it/10.95 Jour-nal of In-ter-na-tional Mon
+ey and Fi-nance\OT1/cmr/m/n/10.95 , 31(3):469--480, apr
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3359--3368
+\OT1/cmr/m/n/10.95 2012.  ISSN 02615606.  doi: 10.1016/j.jimonfin.2011.10.003. 
+ URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3359--3368
+\OT1/cmtt/m/n/10.95 http://www.sciencedirect.com/science/article/pii/S026156061
+1001458
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 3437--3444
+[]\OT1/cmr/m/n/10.95 Thomas I. Pal-ley.  From Key-ne-sian-ism to Ne-olib-er-al-
+ism: Shift-ing Paradigms
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3437--3444
+\OT1/cmr/m/n/10.95 in Eco-nomics.  \OT1/cmr/m/it/10.95 Ne-olib-er-al-ism: A Cri
+t-i-cal Reader\OT1/cmr/m/n/10.95 , (April):1--11, 2004.  URL
+ []
+
+
+Overfull \hbox (159.63078pt too wide) in paragraph at lines 3437--3444
+\OT1/cmtt/m/n/10.95 http://www.evernote.com/shard/s317/sh/e7f88b4f-8d8d-4e91-a6
+26-94c9710ded15/4e191f25d35bc740b8d1ef4517acdaa7\OT1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 3446--3454
+[]\OT1/cmr/m/n/10.95 Thomas I. Pal-ley.  Fi-nan-cial-iza-tion : What It Is and 
+Why It Mat-ters.  \OT1/cmr/m/it/10.95 Forced Mi-
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 3446--3454
+\OT1/cmr/m/it/10.95 gra-tion Re-view\OT1/cmr/m/n/10.95 , (525):31, 2007a.  ISSN
+ 1556-5068.  doi: 10.2139/ssrn.1077923.  URL
+ []
+
+
+Underfull \hbox (badness 5217) in paragraph at lines 3475--3483
+\OT1/cmr/m/n/10.95 power, man-age-rial pay and labour mar-ket con-flict.  \OT1/
+cmr/m/it/10.95 Cam-bridge Jour-nal of Eco-
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 3475--3483
+\OT1/cmr/m/it/10.95 nomics\OT1/cmr/m/n/10.95 , 38(6):1355--1372, 2014a.  ISSN 0
+309-166X.  doi: 10.1093/cje/bet001.  URL
+ []
+
+[35]
+Overfull \hbox (56.1544pt too wide) in paragraph at lines 3485--3490
+\OT1/cmtt/m/n/10.95 https://www.google.com/search?q=nds&ie=utf-8&oe=utf-8#q=deb
+t+management+strategy+in+Ghana\OT1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3492--3501
+[]\OT1/cmr/m/n/10.95 Thomas I. Pal-ley.  Money, Fis-cal Pol-icy, and In-ter-est
+ Rates: A Cri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3492--3501
+\OT1/cmr/m/n/10.95 tique of Mod-ern Mon-e-tary The-ory.  \OT1/cmr/m/it/10.95 Re
+-view of Po-lit-i-cal Econ-omy\OT1/cmr/m/n/10.95 , 27(1):1--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3492--3501
+\OT1/cmr/m/n/10.95 23, 2015a.  ISSN 0953-8259.  doi: 10.1080/09538259.2014.9574
+66.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3527--3533
+[]\OT1/cmr/m/n/10.95 Yh Park.  Au-thor In-dex.  \OT1/cmr/m/it/10.95 Ko-rean Jou
+r-nal of Chem-i-cal ...\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3527--3533
+\OT1/cmr/m/n/10.95 page 4614, 1998.  doi: 10.1007/978-1-4614-0977-9.  URL
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 1259) in paragraph at lines 3547--3555
+[]\OT1/cmr/m/n/10.95 Marco Pas-sarella.  A sim-pli-fied stock-flow con-sis-tent
+ dy-namic model of the sys-temic fi-
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 3547--3555
+\OT1/cmr/m/n/10.95 nan-cial fragility in the New Cap-i-tal-ism.  \OT1/cmr/m/it/
+10.95 Jour-nal of Eco-nomic Be-hav-ior & Or-ga-ni-za-
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 3547--3555
+\OT1/cmr/m/it/10.95 tion\OT1/cmr/m/n/10.95 , 83(3):570--582, 2012.  ISSN 016726
+81.  doi: 10.1016/j.jebo.2012.05.011.  URL
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+[36]
+Overfull \hbox (56.1544pt too wide) in paragraph at lines 3653--3659
+\OT1/cmtt/m/n/10.95 https://www.google.com/search?q=nds&ie=utf-8&oe=utf-8#q=deb
+t+management+strategy+in+Ghana\OT1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3661--3667
+[]\OT1/cmr/m/n/10.95 John Rawls.  \OT1/cmr/m/it/10.95 A the-ory of jus-tice\OT1
+/cmr/m/n/10.95 .  1999.  ISBN 978-0674000780.  URL
+ []
+
+
+Overfull \hbox (349.33748pt too wide) in paragraph at lines 3661--3667
+\OT1/cmtt/m/n/10.95 http://books.google.com/books?hl=en&lr=&id=kvpby7HtAe0C&oi=
+fnd&pg=PR11&dq=A+Theory+of+Justice&ots=ti7rv7Bba-&sig=btlO9jsUFUVo0hFNpQbn50PU1
+GE\OT1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 7981) in paragraph at lines 3695--3702
+[]\OT1/cmr/m/n/10.95 Co Roche.  Un-der-stand-ing the Mod-ern Mon-e-tary Sys-tem
+.  \OT1/cmr/m/it/10.95 Avail-able at SSRN
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 3695--3702
+\OT1/cmr/m/it/10.95 1905625\OT1/cmr/m/n/10.95 , pages 1--40, 2011.  ISSN 1556-5
+068.  doi: 10.2139/ssrn.1905625.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3695--3702
+\OT1/cmtt/m/n/10.95 http://www.tsg.ecupl.edu.cn/xkjb/wl/Understanding the Moder
+n Monetary
+ []
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 3753--3762
+[]\OT1/cmr/m/n/10.95 Soon Ryoo.  Long waves and short cy-cles in a model of en-
+doge-nous fi-nan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3753--3762
+\OT1/cmr/m/n/10.95 cial fragility.  \OT1/cmr/m/it/10.95 Jour-nal of Eco-nomic B
+e-hav-ior & Or-ga-ni-za-tion\OT1/cmr/m/n/10.95 , 74(3):163--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3753--3762
+\OT1/cmr/m/n/10.95 186, jun 2010b.  ISSN 01672681.  doi: 10.1016/j.jebo.2010.03
+.015.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3813--3820
+[]\OT1/cmr/m/n/10.95 Jose a Scheinkman.  Non-lin-ear-i-ties in Eco-nomic Dy-nam
+-ics.  \OT1/cmr/m/it/10.95 Eco-nomic Jour-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3813--3820
+\OT1/cmr/m/it/10.95 nal\OT1/cmr/m/n/10.95 , 100(400):33--48, 1990.  ISSN 001301
+33.  doi: 10.2307/2234182.  URL
+ []
+
+
+Overfull \hbox (498.52968pt too wide) in paragraph at lines 3813--3820
+\OT1/cmtt/m/n/10.95 http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1468-0
+297/issues$\OMS/cmsy/m/n/10.95 n$\OT1/cmtt/m/n/10.95 nhttp://search.ebscohost.c
+om/login.aspx?direct=true&db=ecn&AN=0230692&site=ehost-live&scope=site\OT1/cmr/
+m/n/10.95 . 
+ []
+
+[38]
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ì in font cmti10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 3875--3883
+[]\OT1/cmr/m/n/10.95 Mimoza Sha-bani and Jan Toporowski.  A No-bel Prize for th
+e Em-pir-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3875--3883
+\OT1/cmr/m/n/10.95 cal Anal-y-sis of As-set Prices.  \OT1/cmr/m/it/10.95 Re-vie
+w of Po-lit-i-cal Econ-omy\OT1/cmr/m/n/10.95 , 27(1):62--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3875--3883
+\OT1/cmr/m/n/10.95 85, 2015.  ISSN 0953-8259.  doi: 10.1080/09538259.2014.96128
+3.  URL
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 4000--4009
+[]\OT1/cmr/m/n/10.95 Engelbert Stock-ham-mer.  Wage norms, cap-i-tal ac-cu-mu-l
+a-tion, and un-em-ploy-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4000--4009
+\OT1/cmr/m/n/10.95 ment: a post-Keynesian view.  \OT1/cmr/m/it/10.95 Ox-ford Re
+-view of Eco-nomic Pol-icy\OT1/cmr/m/n/10.95 , 27
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4000--4009
+\OT1/cmr/m/n/10.95 (2):295--311, 2011.  ISSN 0266-903X.  doi: 10.1093/oxrep/grr
+013.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4025--4030
+[]\OT1/cmr/m/n/10.95 Joshuah K Sto-laroff and Joshuah K Sto-laroff.  Cap-tur-in
+g CO 2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4025--4030
+\OT1/cmr/m/n/10.95 from am-bi-ent air: a fea-si-bil-ity as-sess-ment.  2006, 20
+06.  URL
+ []
+
+[40]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 4127--4132
+[]\OT1/cmr/m/n/10.95 James To-bin.  Money and Fi-nance in the Macroe-co-nomic P
+ro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4127--4132
+\OT1/cmr/m/n/10.95 cess.  \OT1/cmr/m/it/10.95 Cowles Foun-da-tion Pa-per\OT1/cm
+r/m/n/10.95 , 2(2):1--34, 1986.  URL
+ []
+
+
+Overfull \hbox (176.60316pt too wide) in paragraph at lines 4127--4132
+\OT1/cmtt/m/n/10.95 http://dido.econ.yale.edu/P/cp/p05a/p0543.pdf$\OMS/cmsy/m/n
+/10.95 n$\OT1/cmtt/m/n/10.95 npapers2://publication/uuid/6EB42E93-F5D8-4E3D-B8E
+5-CA415101A6A7\OT1/cmr/m/n/10.95 . 
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[41]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 2050) in paragraph at lines 4233--4242
+[]\OT1/cmr/m/n/10.95 Sebastian Valde-cantos and Gen-naro Zezza.  Re-form-ing th
+e in-ter-na-tional mon-e-tary sys-
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 4233--4242
+\OT1/cmr/m/n/10.95 tem: a stock-flow-consistent ap-proach.  \OT1/cmr/m/it/10.95
+ Jour-nal of Post Key-ne-sian Eco-nomics\OT1/cmr/m/n/10.95 , 38(2):
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 4233--4242
+\OT1/cmr/m/n/10.95 167--191, oct 2015.  ISSN 0160-3477.  doi: 10.1080/01603477.
+2015.1065679.  URL
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 1515) in paragraph at lines 4277--4284
+[]\OT1/cmr/m/n/10.95 Till van Treeck.  Did In-equal-ity Cause the U.S. Fi-nan-c
+ial Cri-sis?  \OT1/cmr/m/it/10.95 Jour-nal of Eco-
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 4299--4304
+[]\OT1/cmr/m/n/10.95 Various.  Spec-u-la-tion and reg-u-la-tion in com-mod-ity 
+mar-kets: The Key-ne-sian ap-proach
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 4299--4304
+\OT1/cmr/m/n/10.95 in the-ory and prac-tice.  Tech-ni-cal re-port, Sapienza Uni
+-ver-sity, Rome, 2012.  URL
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 3281) in paragraph at lines 4314--4319
+[]\OT1/cmr/m/n/10.95 Konstantin M Wacker.  Eu-ro-zone Cap-i-tal Flows, Im-bal-a
+nces, and Ger-manys Liq-uid-
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 4314--4319
+\OT1/cmr/m/n/10.95 ity Trap.  In \OT1/cmr/m/it/10.95 IMK FMM Con-fer-ence, Berl
+in 2015\OT1/cmr/m/n/10.95 , page 21, Berlin, 2015.  URL
+ []
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 4335--4343
+[]\OT1/cmr/m/n/10.95 Francis E. Warnock and Veron-ica Cac-dac Warnock.  In-ter-
+na-tional cap-i-tal flows
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 4335--4343
+\OT1/cmr/m/n/10.95 and U.S. in-ter-est rates.  \OT1/cmr/m/it/10.95 Jour-nal of 
+In-ter-na-tional Money and Fi-nance\OT1/cmr/m/n/10.95 , 28(6):
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 4335--4343
+\OT1/cmr/m/n/10.95 903--919, oct 2009.  ISSN 02615606.  doi: 10.1016/j.jimonfin
+.2009.03.002.  URL
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 4381--4387
+[]\OT1/cmr/m/n/10.95 Michael Wood-ford.  Con-ver-gence in Macroe-co-nomics: El-
+e-ments of the New Syn-the-sis.
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+[43])
+
+Package natbib Warning: There were undefined citations.
+
+[44] ("SFC list.aux") ) 
+Here is how much of TeX's memory you used:
+ 3691 strings out of 493673
+ 59228 string characters out of 3141527
+ 113761 words of memory out of 3000000
+ 7064 multiletter control sequences out of 15000+200000
+ 10224 words of font info for 37 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 27i,9n,32p,1062b,1507s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.
+pfb>
+Output written on "SFC list.pdf" (44 pages, 276190 bytes).
+PDF statistics:
+ 177 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
