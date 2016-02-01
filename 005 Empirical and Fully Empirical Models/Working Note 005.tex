@@ -1,0 +1,125 @@
+\documentclass[twoside,a4paper,11pt]{article}
+\pagestyle{plain}
+\pagenumbering{arabic}
+\title{Empirical and Fully Empirical Models}
+%\subtitle{Working Paper 001}
+\author{Graeme Smith}
+% \date{date text} just print the current date.
+\usepackage[authoryear]{natbib}
+\usepackage{amsmath} 
+\usepackage[left=2cm,top=3cm,right=2cm,bottom=3cm,bindingoffset=0.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{comment} 
+\begin{document}
+
+\maketitle
+\begin{abstract} This note looks at the different ways that Stock-Flow Consistent models are used, in particular the way they use empirical data. The stock-flow literature uses a variety of nomenclature to classify models according to how they form equations and evaluate the parameters  for those equations. This note reviews the various classifications and proposes some tidying up.
+\end{abstract}
+
+The history of stock-flow models could be taken all the way back to Le Quesnay's \emph{tableau economique} but it is generally accepted that modern SFC models have their origins with Tobin's work. His (1981) Nobel Lecture is often taken as a declaration of the basic requirements of SFC modelling, namely precision regarding time, tracking of stocks, several assets and rates of return, modeling of financial and monetary policy operations and Walras' Law and adding-up constraints. At the same time, the method was adopted and developed by Godley's group at Cambridge. From these two, the approach has progressed through Godley's work at the Levy Institute culminating in the collaboration with Marc Lavoie in 2007. SFC models are currently most associated with the post-Keynesian school (and is often referred to as PK-SFC modelling). However \cite{Alvarez2014} argue that, given the accounting structure of any SFC model, there are many possible closures depending on the behavioural assumptions of the modeller. \cite{DosSantos2005} proposes four different Keynesian closures of the same accounting structure -- a Davidsonian, a Minskyan, a Godley model and a Tobin model.
+
+Technically, an SFC model is formulated as a dynamic system of difference equations. The behaviour of the system depends on the functional relations between the variables (i.e. the model equations), the parameter values, and the initial conditions. A model can either be unstable with the value of the variables in time going to infinity (diverging behavior), or converge to a stationary state or a limit cycle (converging behaviour). There may also be the possibility of chaotic behaviour. A particular case of divergent behavior has been termed a `steady state' \cite[:p9]{Caverzasi2014a} where stocks and flows are growing at a constant rate.
+
+\section{Constructing a Stock Flow Consistent Model}
+
+In \cite{Godley2007}, the following description is given of how SFC modelling is done:
+\begin{quotation} The method will be to write down systems of equations and accounting identities, attribute initial values to all stocks and all flows as well as to behavioural parameters, using stylized facts so well as we can to get appropriate ratios (e.g. for the proportion of the national income taken by government expenditure). We then use numerical simulation to check the accounting and obtain a steady state for the economy in question. Finally we shock the system with a variety of alternative assumptions about exogenous variables and parameters and explore the consequences. It will be our contention that via the experience of simulating increasingly complex models it becomes possible to build up knowledge, or ‘informed intuition’, as to the way monetary economies must and do function.
+\end{quotation}
+
+Extracting the essential steps from the above gives the following procedure,\\
+\begin{figure}[h!]
+\begin{enumerate}
+\item{Model Structure}
+ \begin{enumerate}
+ \item{Identify the Sectors to be modelled}
+ \item{Balance Sheet}\\
+         Identify the Assets
+ \item{Transaction Flow Matrix}
+	 \begin{enumerate}
+         Identify the Transactions\\
+         Identify the Interest Payments on Financial Assets\\
+         Identify the Flows of Funds
+ 	\end{enumerate}
+ \item{Revaluation Matrix}\\
+         Identify price changes for all assets
+ \item{Full Integration Matrix}\\
+         The Integration Matrix combines the flow of funds section of the TFM with the Revaluation Matrix. This             matrix ensures stock flow consistency -- that the values of stocks at the beginning of the period plus changes due to transactions and revaluation equal the stock values at the end of the period.
+ \item{Accounting Identities}\\
+         The `adding up' constraints of the rows and the columns of the transactions matrix form accounting identities which are balancing equations that must be satisfied to ensure the integrity of the system.
+ \end{enumerate}
+\item{Model Closure}\\
+         Determine which variables are exogenous and which endogenous, and which have time lags\\
+         Specify behavioural equations to determine all endogenous variables in terms of exogenous or lagged variables.
+\item{Initial Values and Model Parameterization}\\
+         All lagged variables and exogenous variables must be assigned an initial value\\
+         The parameters of the behavioural equations need to be fixed. Here there are several alternative approaches:
+         \begin{enumerate}
+		\item{Stylised Facts}\\
+			Parameter values are fixed by intuition, rules of thumb, appeals to the literature, etc
+		\item{Estimation}\\
+			Parameters are determined using econometric techniques. This approach assumes  that parameter values are constant.
+		\item{Calibration}\\
+			`Endogenisation of the parameters'.
+         \end{enumerate}
+\end{enumerate}
+\caption{The Steps in SFC Modelling}
+\end{figure}
+
+The procedure described above has various options and alternatives which depend on the use to which the model will be put. These are further elaborated in the next section. 
+
+\section{Ways of Using a Stock Flow Consistent Model}
+In the earlier extract from \cite{Godley2007} there is no reference to empirical data, the authority of these models rests on the `stylized facts' upon which the initial values and parameter values depend.
+In \cite{Kinsella2011}  
+\begin{quotation} ...so far most of these models, with the honorable exception of the Levy model run by the Levy Institute at Bard College, have next to no grounding in empirical macroeconomics. The models are explicitly designed as tools for thought experiments rather than practical tools to guide policy, ...
+\end{quotation}
+
+In a comprehensive survey of SFC modelling \cite{Caverzasi2014a} classify models according to their method of solution -- analytical or simulated, with a third category, discursive also discussed. The numerical category is then further sub-divided according to the method of assigning the parameters: estimation or stylised facts (which they call calibration).
+
+\begin{table}[h]
+\begin{tabular}{ l | l | l | l | l |}
+	\cline{2-5}
+	 &\multicolumn{4}{| l |}{Method of Parameterization}\\
+	\multicolumn{1}{ l |}{Method of Solution} & \multicolumn{4}{ l |}{}\\
+	\hline
+	\multicolumn{1}{| l |}{\hspace{10pt}Analytical} & \multicolumn{4}{| c |}{Stock-flow Norms and/or Stylised Facts }\\
+	\hline 
+	\multicolumn{1}{| l |}{\hspace{10pt}Numerical} & \multicolumn{2}{| c |}{Estimation} &  \multicolumn{2}{| c |}{Calibration}\\
+	\cline{2-5}
+	\multicolumn{1}{| l |}{\hspace{10pt}(simulated)} & Fully Empirical & Empirical & \multicolumn{2}{ l |}{(based on Stylised Facts)}\\
+	\hline
+	\multicolumn{1}{| l |}{\hspace{10pt}Discursive} &\multicolumn{4}{| p{0.6\linewidth} |}{Purpose is not to solve the model but to use the accounting structure to perform a theoretical analysis}\\
+	\hline
+\end{tabular}
+\caption{Taxonomy of Model Types according to Caverzasi and Godin}
+\end{table}
+
+The distinction between \emph{fully empirical models} and \emph{empirical models} (unfortunate nomenclature) depends largely on the method of fixing the parameters. They discuss two main methods which they term \emph{estimation} and \emph{calibration}. 
+\begin{description}
+\item[Estimation]{a parameter is assumed constant over a time span and estimated using econometric methods such as ordinary least squares, maximum likelihood, etc.}
+\item[Calibration]{is the process of finding a value for each parameter, in each period, such that the model replicates the dataset. In that sense, calibration has no predictive power since it does not give any insight on parameters’ future values. However, filtering techniques can be used on these calibrated parameters in order to obtain a trend and thus predict future values. Most models are calibrated to a stationary state, which is used as a basis for policy experiments or the analysis of shocks.  The calibration procedure fixes values of the equation parameters  to ensure that model variables will fit the observed data.}
+\end{description} 
+With these definitions in mind, `fully empirical models' and `empirical models' are described thus,
+\begin{description}
+\item[Empirical Models]{extract stylised facts from empirical data and then conduct simulations on the basis of these facts. The simulations start from a steady state that is not necessarily connected to the present situation.}
+\item[Fully empirical models]{all the parameters are estimated and the models are used to predict variations in endogenous variables based on different scenarios, starting from the present state of economy. There are two styles of fully empirical models:}
+	\begin{description}
+	\item[The Levy style]{assumes fixed parameters estimated using econometrics.}
+	\item[The Limerick style \footnote{Stephen Kinsella informs me that the Limerick Model is now The Bank of England model}] {estimates fixed parameters only when necessary (if there is more than one parameter per independent equation) and calibrates the others (\cite{Kinsella2012b}).}
+	\end{description} 
+\end{description} 
+
+An alternative to the fully empirical models described above could be the analysis of dynamic behaviour in terms of stock-flow norms \cite{Godley1999b}. In \cite[p42]{Godley1983} the authors assert that ''stock variables will not change indefinitely as ratios to related flow variables'' and this principle provides a basis for analysis of system dynamics and stability. Rather than evaluating parameters in behavioural equations to support analysis, key stock-flow norms provide the means for understanding relationships between variables of the model. Having formulated the accounting structure to ensure all the adding up constraints, it could be feasible to give time series values to all the variables from an empirical dataset and analyse relationships in terms of stock-flow norms. In Godley 99, he uses a similar approach to show the history and current position of the economy by means of comparisons of the fiscal ratio, the trade ratio and the combined fiscal and trade ratio against GDP, but then having motivated the problem in this way, he then procceds in the way of the \emph{fully empirical} models described earlier by estimating the PX equation econometrically and using it in projections of his SFC model and Cripps' world model for the various scenarios that he identified.
+
+On the estimation vs calibration issue, it seems to me that an estimated model just uses the empirical data to set the initial conditions and to evaluate the parameters, then uses the econometrically derived behavioural equations to perform simulations, analyses etc without further recourse to the empirical data. On the other hand, in a calibrated model the variables of the model in each time period are fully populated from a historical dataset, and it allows the parameter values to 'adapt' in each period to fit the dataset. Presumably this will lead to wildly fluctuating parameter values at certain times, so how do you use the behavioural equations relating model variables when their parameters are constantly changing? Or is there any use for behavioural equations in this context?
+
+%A more streamlined classification could be,
+%\begin{description}
+%\item[Descriptive Models]{}
+%\item[Analytical Models]{}
+%\item[Numerical Models]{}
+%\item[Data Models]{}
+%\end{description}
+
+\bibliographystyle{plainnat}
+\bibliography{WN005}
+\end{document}

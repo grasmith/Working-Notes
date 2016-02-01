@@ -1,0 +1,82 @@
+\documentclass[twoside,a4paper,11pt]{article}
+\pagestyle{plain}
+\pagenumbering{arabic}
+\title{Stock Flow Norms}
+%\subtitle{Working Paper 001}
+\author{Graeme Smith}
+% \date{date text} just print the current date.
+\usepackage[authoryear]{natbib}
+\usepackage{amsmath}
+\usepackage[left=2cm,top=3cm,right=2cm,bottom=3cm,bindingoffset=0.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{comment} 
+\begin{document}
+
+\maketitle
+\begin{abstract} This note explores the concept of `stock flow norms' which are frequently cited as an analytical basis in Stock Flow Consistent (SFC) modelling (\cite{Godley2007}). Though frequently referenced, the concept is usually not clearly defined. The origin of the term, at least as it is used in the SFC world, goes back to \cite{Godley1983} where it is stated as an axiom of their new macroeconomics. 
+\end{abstract}
+
+The purpose of this note is to provide a definition and explanation of the concept of stock flow norms as used in Stock Flow Consistent (SFC) modelling. The origin of the term goes back to the work of the New Cambridge school in the 1970s as set out in Godley and Cripps book (\cite{Godley1983}) where it is cited as an axiom of their new theoretical approach to macroeconomics. The concept is used in the later SFC  literature \cite{Godley1999b}, \cite{Zezza2003}, \cite{Correa2006} and is further developed in the definitive work on SFC by \cite{Godley2007}. The  1983 book by Wynne Godley and Francis Cripps could be seen as a distillation of the work of the Cambridge Economic Policy Group throughout the 1970s, a period of considerable economic turmoil. Their stated objective was ``to establish a logical framework for the analysis of macroeconomic phenomena that is coherent and simple,..., thereby facilitating orderly and creative work on the problems of stagnation, unemployment and inflation...'', a framework which brought them up against the prevailing fashions of the decade -- monetarism and econometrics. Though the exposition is theoretical, it is founded on ten years of experience in modelling the UK economy through the stagflation years, in particular to incorporate the constraints which adjustments of money and other financial assets impose on the economy as a whole\footnote{This became the basis of the `New Cambridge' hypothesis \cite{Cripps1976}.} which in turn required a clear treatment of stock and flow variables and the relation between the two. Their overall aim was ``to put forward ... a conditional theory as to how \emph{whole} economic systems function'' (ibid. p.41). The theory was conditional on their behavioural axiom that ``stock variables will not change indefinitely as ratios to related flow variables'' (p.42). 
+
+\section{What are Stock Flow Norms?}
+Godley and Cripps motivate this with an analogy: if the flow of a river into  a lake increases, the volume of water in the lake will not rise for ever. At some point a new water level will become established where the outflow equals the inflow. In the same way, if the flow of sales by a merchant is constant, his inventory level will not rise or fall indefinitely. If the flow of income is constant, holdings of money will not change indefinitely. This principle is applied to the way that whole systems function and it imposes restrictions on the sum of individual actions. In this way, the room for manoeuvre which seems to be permitted in the `equation by equation' approach to model building is much reduced. Application of the axiom to whole systems leads naturally to the concept of \emph{stock-flow consistency} which is analagous to a principle of conservation for economics, a series of adding-up constraints that ensure that everything comes from somewhere and everything goes somewhere -- nothing is lost and nothing is gained; this is in contrast to the conventional assumption of \emph{ceteris paribus} where the variables under consideration are allowed to vary and it is assumed that everything else stays the same. 
+
+Godley and Cripps assert that the stock-flow norms which determine how actual economic systems work, are in practice fairly stable. This is a `stylised fact' or assertion which is based on empirical observation. Note that the stability of \emph{norms} is consistent with fluctuations in \emph{actual} stock-flow ratios, it is not necessary to assume that in reality the norms are entirely invariant. Even when the norms change, the consideration of stock-flow and flow-flow relationships and the logical connections between them gives a powerful technique for analysing system dynamics and the transition to new system states.
+
+Finally, the stock-flow axiom eliminates the need to provide further `microfoundations' for the models. The assumption of constant aggregate stock-flow norms may be consistent with a large number of different patterns of individual behaviour, although it will generally require some degree of consistency in that behaviour.
+
+\subsection{Stock Flow Consistency}
+Stock-flow consistency recognises that stocks generate flows and flows update stocks and that these values must change together in a coherent way. With the analogy of the water in the lake, if the inflow is $i$ litres/sec, the outflow is $o$ litres/sec then after any time interval $\Delta t$ the volume of water in the lake will have changed by $\Delta V = (i-o)\cdot\Delta t$. The change in the level of the lake will be $\Delta L = \Delta V / A$ where A is some measure of the surface area of the lake. So $\Delta L = \frac{1}{A}\cdot(i-o)\cdot\Delta t$ and the final lake level $L_{f}=L_{0}+\Delta L$. Conversely, the inflow and outflow will be affected by the level of the lake; as the lake level rises the inflow would tend to reduce as it is flowing against a greater head of water, while the outflow would tend to increase since the greater head of water in the lake will induce a higher outflow. The inflow $i = f_{i}(L,\cdots)$ where $f_{i}$ would be a decreasing function of $L$ and the outflow $o = f_{o}(L,\cdots)$ where $f_{o}$ would be an increasing function of $L$.
+
+In summary, stock flow consistency requires that:\\
+\[\Delta L = \frac{1}{A}\cdot(i-o)\cdot\Delta t\]
+\[i = f_{i}(L,\cdots)\]
+\[o = f_{o}(L,\cdots)\]
+This seems like a rather trivial point but it is significant that much economic data, e.g. the national income accounts, are not stock flow consistent in this sense.
+
+When $i=o$ the level $L$ should be constant; if $f_{i}$ is a decreasing function of $L$ and   $f_{o}$ is increasing wrt $L$ then, when $i > o$ the rise in $L$ should tend to reduce $i$ and increase $o$ which would tend to restore the original level, and conversely when $i < o$. When $i=o$, the value of the ratio $L/i$ could constitute a stable stock-flow norm, since the dynamics of the situation dictate that the value will be restored after a disturbance. 
+
+\section{Stock Flow Norms and Time Lags}
+Stability of stock-flow norms enables inferences to be drawn about the speed of adjustment of related flow variables.
+
+\cite[p.36]{Godley1983} gives an illustration of how the stock-flow norm determines the mean lag of a flow variable. A merchant who buys and sells articles holds a stock equal to twice period sales. His inventory/sales norm is 2. If articles are sold in the  same order as they are bought (First In First Out) and the rate of sales and purchases is steady, then the length of time each article remains in stock is given by the ratio of purchases per unit time to the total stock at any point in time, in this case two periods. This is the \emph{mean lag}. Even if the FIFO rule is relaxed, the \emph{mean} lag will continue to be equal to the stock-flow norm, although some articles will pass through more quickly and some less.
+
+\section{Stock Flow Norms and Multipliers}
+In a paper analysing the sustainability of US economic growth in 1999 (\cite{Godley1999}), Godley makes use of three key ratios (stock-flow norms?), the fiscal ratio (or fiscal stance), the trade ratio and the combined fiscal and trade ratio. Godley defines the fiscal ratio as follows:
+ 
+Let $G$ be government spending, $T$ be tax receipts, and $\theta = T/Y$ an average tax rate where $Y$ is GDP. The fiscal ratio $G/\theta$ is exactly equal to Y when the budget is in balance ($G = T$ ). When the fiscal ratio exceeds GDP, there is a deficit ($G> T$ ); and when it is lower, there is a surplus ($G < T$ ). 
+
+\cite{Leite2015} points out that this is actually a form of the fiscal multiplier. Rearranging $Y=G/\theta$ and applying the first difference operator, gives $\Delta Y / \Delta G = 1 / \theta$.
+
+Similarly, if exports and imports are in balance, $X=M$ and $M=\mu Y$ where $\mu$ is the average propensity to import, then $Y=X/\mu$ which Godley calls the trade ratio, which is a variant of Harrod's foreign trade multiplier.
+
+In \cite{Godley1999}, the fiscal and trade ratios are combined to form a `combined fiscal and trade ratio' (CFTR). The CFTR is $(G+X)/(\theta + \mu)$. The CFTR measures the extent to which these exogenous factors taken together, fed the growth of aggregate demand; it shows the extent to which government expenditure plus exports pumped funds into the economy relative to the rate at which taxes and imports siphoned funds out of it. In terms of stock-flow norms, Godley says ``since stocks of assets and liabilities are unlikely to rise or fall indefinitely relative to income flows, the GDP should normally track the CFTR roughly one for one'' (\cite[p.3]{Godley1999}. 
+
+\setlength{\unitlength}{0.20mm}
+\begin{picture}(400,250)
+\put(200,50){\oval(80,40)[b]}
+\put(160,50){\line(0,1){100}}
+\put(240,50){\line(0,1){100}}
+\put(50,100){\vector(1,0){110}}
+\put(240,100){\vector(1,0){110}}
+\put(75,110){inflow}
+\put(265,110){outflow}
+\put(75,75){$G+X$}
+\put(265,75){$T+M=(\theta + \mu)Y$}
+\put(200,200){\vector(0,1){25}}
+\put(100,175){Stock of Assets and Liabilities}
+\put(200,155){\vector(0,-1){25}}
+\end{picture}
+
+When the inflow and outflow are equal, the stock of financial assets will be stable relative to income flows,
+\[(G+X)=(\theta + \mu)Y\]
+\[Y=\frac{G+X}{\theta + \mu}\]
+
+%So \[(Fin Assets)/Y \approx k\] then \[\Delta (Fin Assets) / Y  \approx 0\] from which \[(S-I)/Y \approx 0\].  
+%$G+X=T+M$ and $T+M=(\theta + \mu)Y$ then $Y=(G+X)/(\theta + \mu)$.
+
+
+
+\bibliographystyle{plainnat}
+\bibliography{WN004}
+\end{document}
