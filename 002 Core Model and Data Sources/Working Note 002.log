@@ -1,0 +1,452 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.23)  2 FEB 2016 13:07
+entering extended mode
+**"D:/D_documents/00 PhD/Working Notes/002 Core Model and Data Sources/Working 
+Note 002.tex"
+
+("D:/D_documents/00 PhD/Working Notes/002 Core Model and Data Sources/Working N
+ote 002.tex"
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\Users\graeme\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count87
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
+\Gm@bindingoffset=\dimen112
+\Gm@wd@mp=\dimen113
+\Gm@odd@mp=\dimen114
+\Gm@even@mp=\dimen115
+\Gm@layoutwidth=\dimen116
+\Gm@layoutheight=\dimen117
+\Gm@layouthoffset=\dimen118
+\Gm@layoutvoffset=\dimen119
+\Gm@dimlist=\toks20
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count103
+))
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\comment\comment.sty"
+\CommentStream=\write3
+
+Excluding comment 'comment') ("Working Note 002.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 14.22636pt
+* modes: twoside 
+* h-part:(L,W,R)=(56.9055pt, 469.4705pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=469.4705pt
+* \textheight=674.33032pt
+* \oddsidemargin=-1.13812pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=103.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count104
+\scratchdimen=\dimen122
+\scratchbox=\box28
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen123
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks22
+)
+
+Package natbib Warning: Citation `Bernanke2005' on page 1 undefined on input li
+ne 16.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Package natbib Warning: Citation `Caballero2006' on page 1 undefined on input l
+ine 16.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Package natbib Warning: Citation `Dooley2003' on page 1 undefined on input line
+ 16.
+
+
+Package natbib Warning: Citation `Borio2011b' on page 1 undefined on input line
+ 16.
+
+
+Package natbib Warning: Citation `Bernanke2005' on page 1 undefined on input li
+ne 22.
+
+
+Package natbib Warning: Citation `Caballero2006' on page 1 undefined on input l
+ine 22.
+
+
+Package natbib Warning: Citation `Dooley2003' on page 1 undefined on input line
+ 22.
+
+
+Package natbib Warning: Citation `Lindner2015' on page 1 undefined on input lin
+e 22.
+
+
+Package natbib Warning: Citation `Borio2011d' on page 1 undefined on input line
+ 24.
+
+
+Package natbib Warning: Citation `Borio2015a' on page 1 undefined on input line
+ 24.
+
+
+Package natbib Warning: Citation `Borio2015a' on page 1 undefined on input line
+ 24.
+
+[1
+
+{C:/Users/graeme/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+Package natbib Warning: Citation `Borio2011d' on page 2 undefined on input line
+ 26.
+
+
+Package natbib Warning: Citation `Lane2014a' on page 2 undefined on input line 
+28.
+
+
+Package natbib Warning: Citation `Avdjiev2015' on page 2 undefined on input lin
+e 28.
+
+
+Package natbib Warning: Citation `Acharya2010' on page 2 undefined on input lin
+e 28.
+
+
+Package natbib Warning: Citation `Bertaut2012' on page 2 undefined on input lin
+e 30.
+
+
+Package natbib Warning: Citation `Acharya2010' on page 2 undefined on input lin
+e 32.
+
+
+Package natbib Warning: Citation `Baba2009' on page 2 undefined on input line 3
+2.
+
+
+Package natbib Warning: Citation `McGuire2009' on page 2 undefined on input lin
+e 32.
+
+
+Package natbib Warning: Citation `Brender2010' on page 2 undefined on input lin
+e 32.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+
+Package natbib Warning: Citation `Obstfeld2012a' on page 3 undefined on input l
+ine 37.
+
+
+Package natbib Warning: Citation `Obstfeld2012a' on page 3 undefined on input l
+ine 37.
+
+
+Package natbib Warning: Citation `Miess2015' on page 3 undefined on input line 
+39.
+
+
+Package natbib Warning: Citation `Minsky1986' on page 3 undefined on input line
+ 41.
+
+
+Package natbib Warning: Citation `Caverzasi2015b' on page 3 undefined on input 
+line 41.
+
+
+Package natbib Warning: Citation `Bezemer2011' on page 3 undefined on input lin
+e 41.
+
+
+Package natbib Warning: Citation `DosSantos2004' on page 3 undefined on input l
+ine 41.
+
+
+Package natbib Warning: Citation `Dafermos2015a' on page 3 undefined on input l
+ine 41.
+
+
+Package natbib Warning: Citation `Caverzasi2014a' on page 3 undefined on input 
+line 50.
+
+
+Package natbib Warning: Citation `Kinsella2012b' on page 3 undefined on input l
+ine 52.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[3]
+
+Package natbib Warning: Citation `Godley1999b' on page 4 undefined on input lin
+e 54.
+
+
+Package natbib Warning: Citation `Godley1983' on page 4 undefined on input line
+ 54.
+
+Excluding 'comment' comment. <balance-sheet.jpg, id=17, 770.88pt x 380.622pt>
+File: balance-sheet.jpg Graphic file (type jpg)
+
+<use balance-sheet.jpg>
+Package pdftex.def Info: balance-sheet.jpg used on input line 74.
+(pdftex.def)             Requested size: 469.4705pt x 231.80156pt.
+ Excluding 'comment' comment.
+<hh.jpg, id=18, 543.2295pt x 281.853pt>
+File: hh.jpg Graphic file (type jpg)
+ <use hh.jpg>
+Package pdftex.def Info: hh.jpg used on input line 106.
+(pdftex.def)             Requested size: 469.4705pt x 243.58446pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [4 <./balance-sheet.jpg>]
+<trans-matrix.jpg, id=22, 781.7205pt x 390.258pt>
+File: trans-matrix.jpg Graphic file (type jpg)
+ <use trans-matrix.jpg>
+Package pdftex.def Info: trans-matrix.jpg used on input line 123.
+(pdftex.def)             Requested size: 469.4705pt x 234.37692pt.
+
+<NLB.jpg, id=23, 689.57625pt x 104.7915pt>
+File: NLB.jpg Graphic file (type jpg)
+ <use NLB.jpg>
+Package pdftex.def Info: NLB.jpg used on input line 129.
+(pdftex.def)             Requested size: 469.4705pt x 71.34361pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [5 <./hh.jpg>]
+[6 <./trans-matrix.jpg> <./NLB.jpg>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 178--189
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+("Working Note 002.bbl"
+
+Package natbib Warning: Empty `thebibliography' environment on input line 8.
+
+)
+
+Package natbib Warning: There were undefined citations.
+
+[8] ("Working Note 002.aux") ) 
+Here is how much of TeX's memory you used:
+ 2653 strings out of 493673
+ 34641 string characters out of 3141527
+ 105320 words of memory out of 3000000
+ 5992 multiletter control sequences out of 15000+200000
+ 9523 words of font info for 34 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 27i,6n,32p,1900b,221s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmti10.pfb>
+Output written on "Working Note 002.pdf" (8 pages, 581863 bytes).
+PDF statistics:
+ 57 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+
