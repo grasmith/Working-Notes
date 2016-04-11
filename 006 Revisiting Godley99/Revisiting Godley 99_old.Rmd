@@ -1,0 +1,145 @@
+---
+title: "Revisiting Godley99"
+author: "Graeme Smith"
+date: "December 23, 2015"
+output: pdf_document
+---
+
+The aim is to extend the model in Godley99 with recent data to compare the actual trajectory of the US economy with the projections made in Godley's paper in 1999. But also to recalculate the stock flow norms that he used:
+
+
+* Trade Ratio and Adjusted Trade Ratio
+    + It is the ratio of exports adn foreign transfers to the average import propensity, with all variables corrected for inflation, relative prices and the business cycle.
+    + $ATR = X / \mu$ where X is exports of goods and services plus all transfers corrected for price changes and $\mu$ is the average import propensity corrected for the business cycle
+* Combined Fiscal and Trade Ratio
+
+## Reconstructing the Fiscal Ratio
+
+Fiscal Ratio and Adjusted Fiscal Ratio (adjusted for inflation and the business cycle)
+
+* this is a measure of the government's 'fiscal stance' - it is said to be neutral if the deficit is small and does not increase as a share of GDP through time. It is the ratio of Government Spending to the average rate of taxation. When the budget is balanced, this ratio will be exactly equal GDP
+* $FR = G / \theta$ where $G$ is gov't expenditure and $\theta$ is the average tax rate. It's the ratio of the injection from gov't expenditure to the leakage of taxation
+* How to calculate $G$ and $\theta$? $\theta$ will vary from period  to period, so could use the 'instantaneous' value or some period average. Start with the instantaneous value of $\theta$: for the US, using Z1 table F105, the total taxation could be 
+
+Code | Description
+------------- | -------------
+FA366210005.A | General government; personal current taxes
+FA366240005.A | General government; taxes on production and imports, receivable (IMA)
+FA366231005.A | General government; taxes on corporate income (accrual basis)
+FA316231061.A | Federal government; taxes from the rest of the world
+
+* there's a question around the following, whether they are leakages or payments for services:
+
+Code | Description
+------------- | -------------
+FA366601005.A | General government; contributions for government social insurance received 	
+FA366403105.A | General government; other current transfers received
+
+* These values are 'seasonally adjusted' (but not adjusted for inflation?)
+
+* Government Expenditure also comes from table F105. The total figure for current expenditure is
+
+Code | Description
+------------- | -------------
+FA366900015.A |General government; current expenditures
+
+It includes
+
+Code | Description
+------------- | -------------
+FA366404005.A | General government; social contributions paid
+FA366403005.A | General government; other current transfers paid
+
+so use the total figure and deduct the received figures from above to get a net figure for social contributions and current transfers.
+
+
+* GDP is taken from table F2,
+
+Code | Description
+------------- | -------------
+FA086902005.A | Gross domestic product (GDP); sum of pieces	
+
+```{r echo=FALSE}
+library(dplyr)
+library(ggplot2)
+# this is the url for table F105
+#tableF105 <- "848b989b9776e637e52f8b1a3a5b83a6"
+#tableF2 <- "c9856a45a42607823a85d45a2c104e1c15"
+##tableF105_url <- paste0("http://www.federalreserve.gov/datadownload/Output.aspx?rel=Z1&series=",tableF105,"&lastObs=&from=01/01/1960&to=12/31/2015&filetype=csv&label=include&layout=seriesrow")
+#tableF2_url <- paste0("http://www.federalreserve.gov/datadownload/Output.aspx?rel=Z1&series=",tableF2,"&lastObs=&from=01/01/1960&to=12/31/2015&filetype=csv&label=include&layout=seriesrow")
+#download.file(tableF105_url,"F105_file.csv")
+#download.file(tableF2_url,"F2_file.csv")
+F105_table <- read.csv("F105_file.csv",stringsAsFactors = FALSE)
+F2_table <- read.csv("F2_file.csv",stringsAsFactors = FALSE)
+data_table <- filter(select(F105_table,c(Descriptions.,Series.Name.,X1960:X2014)),
+                       Series.Name. %in%  c("FA366210005.A","FA366240005.A","FA366231005.A","FA316231061.A","FA366601005.A","FA366403105.A","FA366900015.A","FA366404005.A","FA366403005.A"))
+data_table <- rbind(data_table,filter(select(F2_table,c(Descriptions.,Series.Name.,X1960:X2014)),
+                                      Series.Name. == "FA086902005.A"))
+fisc_ratio <- data.frame("Year"=gsub("(X)([0-9]*)","\\2",names(data_table[,3:57])),
+                         "Total_Tax"=colSums(data_table[1:4,3:57])/1000,
+                         "Gov_Spend"=(colSums(data_table[7:9,3:57])
+                                        - colSums(data_table[5:6,3:57])) / 1000,
+                         "GDP"=rep(0,55))
+for(i in 1:nrow(fisc_ratio)){
+    fisc_ratio$GDP[i] <- data_table[10,i+2] / 1000
+}
+fisc_ratio <- mutate(fisc_ratio,"theta"=round(Total_Tax / GDP,3))
+fisc_ratio <- mutate(fisc_ratio,"Fiscal_Ratio"=round(Gov_Spend / theta,3))
+g <- ggplot(data=fisc_ratio,aes(x=Year,y=Fiscal_Ratio,group=1))
+plot_frame <- rbind(select(mutate(fisc_ratio,Amount=GDP,Cat=rep("GDP",nrow(fisc_ratio))),Year,Cat,Amount),select(mutate(fisc_ratio,Amount=Fiscal_Ratio,Cat=rep("Fiscal_Ratio",nrow(fisc_ratio))),Year,Cat,Amount))
+h <- ggplot(plot_frame,aes(x=Year,y=Amount,group=Cat)) + geom_line()
+h
+```
+
+## The Stock Flow Model
+
+The following reproduces table A.5 in Godley's paper showing data for 2014.
+
+Notes:
+
+1. He splits out Government expenditure on goods and services as two separate flows. It's not immediately obvious why, but since the Z.1 tables have a single figure for current expenditures (FU366900015.A), these have been recombined.
+2. Same remark as above for exports, here a single figure for exports including transfer payments has been used. This is the total of FA266903011.A (US exports), FA266904001.A (income payments to the US), FA266400201.A (current taxes, contributions for government social insurance, and transfer payments paid) and FA265440005.A (net capital transfers paid).
+3. The components of GDP have been taken from table F.2 Distribution of Gross Domestic Product:
+
+* Private Expenditure is the sum of
+    + FA156901001.A Households and nonprofit organizations; personal consumption expenditures
+    + FA835019905.A Private domestic sectors; gross fixed investment and inventories
+* Government Expenditure
+    + FA366902005.A General government; gross domestic product (GDP)
+* Exports
+    + FA266903011.A Rest of the world; U.S. exports
+* Imports
+    + FA266903001.A Rest of the world; U.S. imports
+4. The components of Private Disposable Income are taken from table F3 Distribution of National Income:
+* Net Indirect Taxes
+    + FA156901001.A Households and nonprofit organizations; personal consumption expenditures
+    + FA835019905.A Pri
+* Total Factor Income
+5. The Fiscal Ratio is calculated from table 
+
+
+```{r echo=FALSE}
+flow_names <- c("Private Expenditure","Government Expenditure", "Exports", "Imports", "Memo: GDP")
+sector_names <- c("inc_exp", "Prod", "Fin", "Gov", "Int", "ROW")
+Years <- 1999:2014
+a5 <- array(0,dim=c(length(flow_names),length(sector_names),length(Years)),dimnames = list(flow_names,sector_names,Years))
+####### government expenditure
+indat <- read.csv("data-gov exp 99-15.csv",skip = 5)
+gov <- data.frame(Year=indat[,1],exp=indat[,2]/1000)
+for(y in 1:length(Years)){
+    a5["Government Expenditure",c("Prod","Gov"),y] <- c(gov[y,2],-gov[y,2])
+}
+rm(gov)
+####### Exports
+indat <- read.csv("data-exports 99-15.csv",skip = 5)
+for(y in 1:length(Years)){
+    exports <- sum(indat[y,2:5])/1000
+    a5["Exports",c("Prod","ROW"),y] <- c(exports,-exports)
+}
+a5[,,"2014"]
+```
+
+### Private Disposable Income
+
+
+
