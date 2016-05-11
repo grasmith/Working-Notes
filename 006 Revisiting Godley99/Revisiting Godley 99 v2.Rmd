@@ -1,7 +1,7 @@
 ---
 title: "Revisiting Godley99"
 author: "Graeme Smith"
-date: "11 April, 2015"
+date: "9 May 2015"
 output: pdf_document
 bibliography: ../../library.bib
 ---
@@ -21,6 +21,7 @@ The plots in the Godley 99 paper are reproduced here. To facilitate comparison w
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(dplyr)
 library(ggplot2)
+library(lubridate)
 # The gov't net saving values are in Z1 files S.7.a(A) and S.8.a(A), GDP is in S.1.a(A)
     seriesCodes <- data.frame(S.1.a = "a28fd6ff58186c91e3e2987a889a772d",
                               S.3.a = "0a165246a24d5945b5826f137837ad0f",
@@ -80,7 +81,7 @@ library(ggplot2)
 This is the gov't surplus/deficit as a percentage of GDP.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-#     take the GDP values from TotalEcon itemcode FA896902505 
+#     take the GDP values from TotalEcon itemcode FA896902505
     GDP <- unique(filter(TotalEcon, itemCode == "FA896902505.A"))
 #     Deflate GDP to get GDP_def using the GDP deflator def_GDP/100 and divide by 1000 to get billions
     GDP_def <- as.numeric(select(GDP,`1960`:`2014`)) / (10 * def_GDP)
@@ -91,10 +92,14 @@ This is the gov't surplus/deficit as a percentage of GDP.
 #     Express as % of GDP
     GenGovBal_pc <- 100 * GenGovBal_def / GDP_def
 #     Plot % of GDP against years 1982-2014; 1982 is element 23 of the vector
-    Year <- Years[23:55]
-    Percent_of_GDP<-GenGovBal_pc[23:55]
-    fig1<- qplot(Year,Percent_of_GDP,stat="identity",position = "dodge",geom="bar")+
-              scale_x_discrete(breaks = seq(from=1982, to=2014, by=10))
+    plotframe <- data.frame(Year=Years[23:55],Percent_of_GDP=GenGovBal_pc[23:55])
+    fig1 <- ggplot(plotframe, aes(x=Year,y=Percent_of_GDP)) + 
+                geom_bar(stat = "identity") +
+                scale_x_discrete(name="year",breaks=seq(from=1960, to=2014, by=10)) +
+                labs(x="Year", y="% GDP", title="Government Deficit (%GDP)")
+                #theme(legend.position="top",legend.title=element_blank())
+#    fig1<- qplot(Year,Percent_of_GDP,stat="identity",position = "dodge",geom="bar")+
+#              scale_x_discrete(breaks = seq(from=1982, to=2014, by=10))
     ggsave("fig1.jpg",plot=fig1,width=9, height=9, units="cm")
 ```
 
@@ -284,11 +289,22 @@ Most of Godley's work was based on the assumption of such stable stock-flow norm
 Data from the US NIPA and Flow of Funds tables from 1960 to 2014 has been used to calibrate the model. The following table shows the GDP section of the model for the year 2014 in US$billions. The statistical discrepancy arises when comparing the total GDP figure which is derived in the tables using the income basis with GDP calculated on an expenditure basis.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-    flow_names <- c("Private Expenditure","Government Expenditure", "Exports", "Imports","Stat Disc", "Memo: GDP")
-    sector_names <- c("Inc_Exp", "Prod", "Fin", "Gov", "Int", "ROW")
+####### set up an array for the transaction matrix
+    gdp_flow_names <- c("Private Expenditure","Government Expenditure", "Exports",
+                        "Imports","Stat Disc","Memo: GDP")
+    pdi_flow_names <- c("Net Indirect Taxes","Total Factor Income","Property Income",
+                        "Direct Tax","Net Transfers","Memo:Private Disposable Income")
+    fof_flow_names <- c("Net Lending/Borrowing","Net Lending to Pvt Sector","Other Change in Fin Assets")
+    flow_names <- c(gdp_flow_names, pdi_flow_names,fof_flow_names,"Sectoral Financial Balances")
+    sector_names <- c("Inc_Exp", "Prod", "Fin", "Gov", "ROW", "Sum")
     Years <- 1960:2014
     a5 <- array(0,dim=c(length(flow_names),length(sector_names),length(Years)),
                   dimnames = list(flow_names,sector_names,Years))
+  ### load the series from the Z1 xml file
+    series <- read.csv("Series.csv",check.names = FALSE,stringsAsFactors = FALSE)
+    # eliminate index column and convert to $B
+    series <- series[2:ncol(series)]
+    series[,6:ncol(series)] <- series[,6:ncol(series)] / 1000
 ####### private expenditure
     # private sector final consumption FA156901001
     pvt_cons <- unique(filter(HH,itemCode==grep("69010",HH$itemCode,value = TRUE)))
@@ -300,9 +316,9 @@ Data from the US NIPA and Flow of Funds tables from 1960 to 2014 has been used t
     ncf <- rbind(ncf,unique(filter(FC,itemCode==grep("50150",FC$itemCode,value = TRUE))))
     #   63000	 Consumption of fixed capital
     cfc <- unique(filter(HH,itemCode==grep("63000",HH$itemCode,value = TRUE)))
-    cfc <- rbind(cfc,unique(filter(NFNC,itemCode==grep("63000",NFNC$itemCode,value = TRUE))))
-    cfc <- rbind(cfc,unique(filter(NFC,itemCode==grep("63000",NFC$itemCode,value = TRUE))))
-    cfc <- rbind(cfc,unique(filter(FC,itemCode==grep("63000",FC$itemCode,value = TRUE))))
+    cfc <- rbind(cfc,unique(filter(NFNC,itemCode==unique(grep("63000",NFNC$itemCode,value = TRUE)))))
+    cfc <- rbind(cfc,unique(filter(NFC,itemCode==unique(grep("63000",NFC$itemCode,value = TRUE)))))
+    cfc <- rbind(cfc,unique(filter(FC,itemCode==unique(grep("63000",FC$itemCode,value = TRUE)))))
     # Total Gross Investment is net capital formation (ncf) + cons of fixed cap (cfc)
     inv <- colSums(select(cfc,`1960`:`2014`)+select(ncf,`1960`:`2014`))
     # PX is pvt_cons + inv
@@ -348,10 +364,227 @@ Data from the US NIPA and Flow of Funds tables from 1960 to 2014 has been used t
         a5["Stat Disc","Prod",y] <- -stat_disc[y]
         a5["Memo: GDP","Prod",y] <- gdp[y]
     }
-a5[,,"2014"]
+#   calculate the sector balances and populate the summation column
+    sfb <- colSums(a5[flow_names[which(!grepl("Memo:",flow_names))],,])
+    for(y in 1:length(Years)){
+        a5["Sectoral Financial Balances",,y] <- sfb[,y]
+        a5[,"Sum",y] <- rowSums(a5[,,y])
+    }
+#   
+    a5[c(gdp_flow_names,"Sectoral Financial Balances"),,"2014"]
 ```
 
+The second section of the model for disposable income follows:
 
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+####### Net Indirect Taxes: take data from TotalEcon file and place into Prod column
+    #    FA896240001.A Taxes on production and imports, receivable 
+    #    FA366402015.A Less Subsidies paid
+    nit <- rbind(unique(filter(TotalEcon,itemCode==grep("62400",TotalEcon$itemCode,value = TRUE))),
+                 unique(filter(TotalEcon,itemCode==grep("64020",TotalEcon$itemCode,value = TRUE))))
+    nit <- as.numeric(colSums(select(nit,`1960`:`2014`)) / (1000))
+    for(y in 1:length(Years)){
+        a5["Net Indirect Taxes",c("Prod","Gov"),y] <- c(-nit[y],nit[y])
+    }
+####### Total Factor Income: take data from TotalEcon file and place into Inc/Exp column
+    #    ! In the Nat Accs, TFI doesn't include CFC! Add it into tfi to achieve balance
+    #    FA896402101.A Net Operating Surplus
+    #    FA156025105.A Compensation of Employees received
+    #    FA896025001.A Compensation of employees paid
+    #    so factor income paid (fip) is NOS + FA896025001, factor income rec'd (fir) is NOS + FA156025105
+    #    net factor income to/from ROW is the difference
+    nos_cfc <- rbind(unique(filter(TotalEcon,itemCode==grep("64021",TotalEcon$itemCode,value = TRUE))),
+                     unique(filter(TotalEcon,itemCode==grep("63000",TotalEcon$itemCode,value = TRUE))))
+    fir <- rbind(nos_cfc,                 
+                 unique(filter(TotalEcon,itemCode==grep("60251",TotalEcon$itemCode,value = TRUE))))
+    fir <- as.numeric(colSums(select(fir,`1960`:`2014`)) / (1000))
+    fip <- rbind(nos_cfc,
+                 unique(filter(TotalEcon,itemCode==grep("60250",TotalEcon$itemCode,value = TRUE))))
+    fip <- as.numeric(colSums(select(fip,`1960`:`2014`)) / (1000))
+    fi_row <- fip - fir
+    for(y in 1:length(Years)){
+        a5["Total Factor Income",c("Inc_Exp","Prod","ROW"),y] <- c(fir[y],-fip[y],fi_row[y])
+    }
+####### Property Income: take data from TotalEcon file and place into Inc/Exp column
+    #    FA896150105    Property income (received)
+    #    FA896150005    Property income (paid)
+    #    Treat net property income as inc/exp the offset being to/from ROW
+    pir <- unique(filter(TotalEcon,itemCode==grep("61501",TotalEcon$itemCode,value = TRUE)))
+    pir <- as.numeric(select(pir,`1960`:`2014`)) / 1000
+    pip <- unique(filter(TotalEcon,itemCode==grep("61500",TotalEcon$itemCode,value = TRUE)))
+    pip <- as.numeric(select(pip,`1960`:`2014`)) / 1000
+    net_pi <- pir -pip
+    pi_row <- -net_pi
+    for(y in 1:length(Years)){
+        a5["Property Income",c("Inc_Exp","ROW"),y] <- c(net_pi[y],pi_row[y])
+    }
+####### Check that Property income abroad + factor income abroad = Net foreign income
+    #   FA266904095 Income receipts from the rest of the world
+    #   FA266904195 Income payments to the rest of the world
+    nfi <- rbind(unique(filter(TotalEcon,itemCode==grep("69040",TotalEcon$itemCode,value = TRUE))),
+                 unique(filter(TotalEcon,itemCode==grep("69041",TotalEcon$itemCode,value = TRUE))))
+    nfi <- as.numeric(colSums(select(nfi,`1960`:`2014`)) / 1000)
+    chk <- (nfi - pi_row - fi_row)
+####### Direct Taxes: take data from TotalEcon file and place into Inc/Exp column
+    #   FA896220001 Received by Gov'
+    #   FA896220005 Paid by domestic sector
+    #   difference is net tax paid abroad
+    txrc <- unique(filter(TotalEcon,itemCode==grep("6220001",TotalEcon$itemCode,value = TRUE)))
+    txrc <- as.numeric(select(txrc,`1960`:`2014`)) / 1000
+    txpd <- unique(filter(TotalEcon,itemCode==grep("6220005",TotalEcon$itemCode,value = TRUE)))
+    txpd <- as.numeric(select(txpd,`1960`:`2014`)) / 1000
+    txrow <- txpd - txrc
+    for(y in 1:length(Years)){
+        a5["Direct Tax",c("Inc_Exp","Gov","ROW"),y] <- c(-txpd[y],txrc[y],txrow[y])
+    }
+####### Net Foreign and Domestic Transfers:
+    #   Transfers paid by gov't
+    #       FA366601005.Q contributions for government social insurance received 1164.1
+    #       FA366403105.Q other current transfers received 702.1
+    #       FA366404005.Q social contributions paid 2506.6
+    #       FA366403005.Q other current transfers paid 547.2
+    recpt <- unique(filter(GenGov,itemCode %in% c("FA366601005.A","FA366403105.A")))
+    pmt <- unique(filter(GenGov,itemCode %in% c("FA366404005.A","FA366403005.A")))
+    gvtfr <- as.numeric(colSums(select(recpt,`1960`:`2014`)) -
+                       colSums(select(pmt,`1960`:`2014`))) / (1000)
+    #   Foreign Transfers: difference between total tax and transfers abroad and taxes to/from ROW (txrow)
+    #       FA266400201 Current taxes and trans. receipts from rest of world
+    #       FA266400101 Current taxes and trans. payments to rest of world
+    ftfr <- as.numeric(((select(unique(filter(ROW,itemCode=="FA266400101.A")),`1960`:`2014`) -
+                     select(unique(filter(ROW,itemCode=="FA266400201.A")),`1960`:`2014`)) / 1000)) - txrow
+    #   Transfers received by private sector is difference between that paid by gov't and paid to ROW
+    pvtfr <- -gvtfr - ftfr
+    for(y in 1:length(Years)){
+        a5["Net Transfers",c("Inc_Exp","Gov","ROW"),y] <- c(pvtfr[y],gvtfr[y],ftfr[y])
+    }
+####### Private Disposable Income: 
+    #   Total the income entries in the inc/exp column
+    for(y in 1:length(Years)){
+        a5["Memo:Private Disposable Income","Inc_Exp",y] <-
+            sum(a5[pdi_flow_names[which(!grepl("Memo:",pdi_flow_names))],"Inc_Exp",y])
+    }
+
+##### NLB on capital account (S - I)
+    # HH FA155000905, NFC FA105000905, NFNC FA115000905, FS FA795000995.A, GGov FA365000905.A, ROW FA265000905
+    pvt_nlb_codes <- c("FA105000905.A","FA115000905.A","FA155000905.A")
+    pvt_nlb <- as.numeric(colSums(select(filter(series,code %in% pvt_nlb_codes),`1960`:`2014`)))
+    fs_nlb <- as.numeric(select(filter(series,code == "FA795000995.A"),`1960`:`2014`))
+    gov_nlb <- as.numeric(select(filter(series,code == "FA365000905.A"),`1960`:`2014`))
+    row_nlb <- as.numeric(select(filter(series,code == "FA265000905.A"),`1960`:`2014`))
+    for(y in 1:length(Years)){
+        a5["Net Lending/Borrowing",c("Inc_Exp","Fin","Gov","ROW"),y] <-     
+            c(pvt_nlb[y],fs_nlb[y],gov_nlb[y],row_nlb[y])
+    }
+    
+####### Net Lending to Private Sector
+    # Private Sector: Total Loans as assets  FA**4023005 for sectors 15, 10, 11 
+    pvt_loan_asset <- c("FA104035005.A","FA114023005.A","FA154023005.A")          
+    # Private Sector: Total Loans as liabilities FA**4123005 for sectors 15, 10, 11 
+    pvt_loan_liab <- c("FA104123005.A","FA114123005.A","FA154123005.A")        
+    pvt_Loan_assets <- colSums(select(filter(series,code %in% pvt_loan_asset),`1960`:`2014`))
+    pvt_Loan_liabs <-  colSums(select(filter(series,code %in% pvt_loan_liab),`1960`:`2014`))
+    pvt_netLoans <- as.numeric(pvt_Loan_assets - pvt_Loan_liabs)
+    # Financial Sector: loan assets FA794035005; loan liabilities FA794135005
+    fs_netLoans <- as.numeric(select(filter(series,code == "FA794035005.A"),`1960`:`2014`) -
+                              select(filter(series,code == "FA794135005.A"),`1960`:`2014`))
+    # Govt lending (asset) is FA364023005 - FA364123005
+    gov_netLoans <- as.numeric(select(filter(series,code == "FA364023005.A"),`1960`:`2014`) -
+                            select(filter(series,code == "FA364123005.A"),`1960`:`2014`))
+    for(y in 1:length(Years)){
+        a5["Net Lending to Pvt Sector",c("Inc_Exp","Fin","Gov"),y] <-     
+            c(pvt_netLoans[y],fs_netLoans[y],gov_netLoans[y])
+    }
+
+##### Net change in financial assets (excl loans)
+    # NAFA      FA154090005.A FA104090005.A FA114090005.A FA794090005.A FA364090005.A FA264090005.A
+    # NIL       FA154190005.A FA104190005.A FA114190005.A FA794190005.A FA364190005.A FA264190005.A
+    # Statistical Discrepancy FU157005045 FU107005045 FU797005045 FU367005045 FU267005005
+    pvt_nafa_codes <- c("FA154090005.A","FA104090005.A","FA114090005.A","FU157005045.A","FU107005045.A","FU117005045.A")
+    pvt_nil_codes <- c("FA154190005.A","FA104190005.A","FA114190005.A")
+    pvt_nafa <- colSums(select(filter(series,code %in% pvt_nafa_codes),`1960`:`2014`))
+    pvt_nil <-  colSums(select(filter(series,code %in% pvt_nil_codes),`1960`:`2014`))
+    pvt_net_FA <- as.numeric(pvt_nafa - pvt_nil) - pvt_netLoans
+    # fin sector
+    fs_net_FA <- as.numeric(colSums(select(filter(series,code %in% c("FA794090005.A","FU797005045.A")),`1960`:`2014`)) -
+                            select(filter(series,code == "FA794190005.A"),`1960`:`2014`)) - fs_netLoans
+    gov_net_FA <- as.numeric(colSums(select(filter(series,code %in% c("FA364090005.A","FU367005045.A")),`1960`:`2014`)) -
+                             select(filter(series,code == "FA364190005.A"),`1960`:`2014`)) - gov_netLoans
+    row_net_FA <- as.numeric(colSums(select(filter(series,code %in% c("FA264090005.A","FU267005005.A")),`1960`:`2014`)) -
+                              select(filter(series,code == "FA264190005.A"),`1960`:`2014`))
+    for(y in 1:length(Years)){
+        a5["Other Change in Fin Assets",c("Inc_Exp","Fin","Gov","ROW"),y] <-     
+            c(pvt_net_FA[y],fs_net_FA[y],gov_net_FA[y],row_net_FA[y])
+    }
+
+#####   re-calculate the sector balances and populate the summation column
+    a5["Sectoral Financial Balances",,] <- 0
+    a5[,"Sum",] <- 0
+    sfb <- colSums(a5[flow_names[which(!grepl("Memo:",flow_names))],,])
+    for(y in 1:length(Years)){
+        a5["Sectoral Financial Balances",,y] <- sfb[,y]
+        a5[,"Sum",y] <- round(rowSums(a5[,,y]),3)
+    }
+    a5[flow_names,,"2014"]
+#### plot pvt sector balances as % of GDP (need to convert GDP to billions)
+    plot_frame <- rbind(data.frame(series="Pvt Sector Balance",
+                             year=Years,
+                             amount=
+                                 100 * 1000 * (as.numeric(a5["Net Lending/Borrowing","Inc_Exp",]) +
+                                               as.numeric(a5["Net Lending/Borrowing","Fin",])) /
+                                 as.numeric(select(GDP,`1960`:`2014`))),
+                         data.frame(series="Public Sector Balance",
+                             year=Years,
+                             amount=
+                                 100 * 1000 * as.numeric(a5["Net Lending/Borrowing","Gov",]) /
+                                 as.numeric(select(GDP,`1960`:`2014`))),
+                         data.frame(series="Current Account Balance",
+                             year=Years,
+                             amount=
+                                 -100 * 1000 * as.numeric(a5["Net Lending/Borrowing","ROW",]) /
+                                 as.numeric(select(GDP,`1960`:`2014`)))
+                        )
+     fig5 <- ggplot(plot_frame,aes(x=year,y=amount)) + 
+                geom_line(aes(colour=series, group=series)) +
+                #scale_x_discrete(name="year",breaks=seq(from=1960, to=2014, by=10)) +
+                labs(x="Year", y="% GDP", title="Sectoral Financial Balances (%GDP)") +
+                theme(legend.position="top",legend.title=element_blank())
+        
+#### plot pvt expenditure, disposable income and pvt net lending
+    plot_frame <- rbind(data.frame(series="Pvt Sector Lending",
+                             year=Years,
+                             amount=
+                                 100 * 1000 * as.numeric(a5["Net Lending to Pvt Sector","Inc_Exp",]) /
+                                 as.numeric(select(GDP,`1960`:`2014`))),
+                        data.frame(series="Private Expenditure",
+                             year=Years,
+                             amount=
+                                 -100 * 1000 * as.numeric(a5["Private Expenditure","Inc_Exp",]) / 
+                                 as.numeric(select(GDP,`1960`:`2014`))),
+                        data.frame(series="Private Disposable Income",
+                             year=Years,
+                             amount=
+                                 100 * 1000 * as.numeric(a5["Memo:Private Disposable Income","Inc_Exp",]) / 
+                                 as.numeric(select(GDP,`1960`:`2014`))
+                             ),
+                        data.frame(series="Other Changes in Household Assets",
+                             year=Years,
+                             amount=
+                                 100 * 1000 * as.numeric(a5["Other Change in Fin Assets","Inc_Exp",]) / 
+                                 as.numeric(select(GDP,`1960`:`2014`))
+                             ),
+                        data.frame(series="Net Lending/Borrowing",
+                             year=Years,
+                             amount=
+                                 100 * 1000 * as.numeric(a5["Net Lending/Borrowing","Inc_Exp",]) / 
+                                 as.numeric(select(GDP,`1960`:`2014`))
+                             )                        
+                        )
+    fig6 <- ggplot(plot_frame,aes(x=year,y=amount)) + 
+                geom_line(aes(colour=series, group=series)) +
+                #scale_x_discrete(name="year",breaks=seq(from=1960, to=2014, by=10)) +
+                labs(x="Year", y="% GDP", title="Net Lending to Private Sector (%GDP)") +
+                theme(legend.position="top",legend.title=element_blank())
+```
 
 # References
 
